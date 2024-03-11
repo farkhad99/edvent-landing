@@ -1,3 +1,10 @@
+# 1.0.0 (2024-03-11)
+
+
+### Features
+
+* init project template ([1c775db](https://github.com/farkhad99/edvent-landing/commit/1c775dbe5951457884e0ba04b8bc1ab159243093))
+
 # [3.43.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.42.0...v3.43.0) (2024-03-07)
 
 
