@@ -26,12 +26,6 @@
     "body": "Message",
     "save": "Sauvegarder"
   },
-  "About": {
-    "meta_title": "A propos",
-    "meta_description": "A propos description",
-    "about_paragraph": "Bienvenue sur notre page À propos ! Nous sommes une équipe de passionnés et dévoués à la création de logiciels.",
-    "translation_powered_by": "Traduction propulsée par"
-  },
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Bienvenue sur la page de mon portfolio !",
@@ -66,5 +60,176 @@
     "dashboard_link": "Tableau de bord",
     "user_profile_link": "Gérer votre compte",
     "sign_out": "Se déconnecter"
+  },
+  "Header": {
+    "speakers": "Speakers",
+    "venues": "Venues",
+    "tickets": "Tickets",
+    "program": "Program",
+    "partners": "Partners",
+    "date": "March 25, CAEx"
+  },
+  "HeaderBanner": {
+    "title": "Meet the legend",
+    "guest": "Jo Malone"
+  },
+  "Goals": {
+    "events": "Events",
+    "sell_tickets": "Sell Tickets",
+    "gather_audience": "Gathered Audience",
+    "description": "MAIN STAGE, DEEP-DIVE WORKSHOPS, ROUNDTABLES, MENTORING ZONE, SERENITY CORNER, F&B, GALA DINNER"
+  },
+  "About": {
+    "title": "What is Edvent",
+    "description": "The Women's Empowerment Convention is the ultimate destination for the world's successful women leaders, setting new standards and breaking barriers. More than just an event, it is a bold, vibrant community where global women leaders unite to challenge norms, celebrate achievements, and inspire greatness. We create a dynamic space of connection, learning, and empowerment, emphasizing that if you are a successful woman, this is where you belong. Join us to showcase your brilliance and drive transformative change, making the WE Convention the ultimate platform for women worldwide."
+  },
+  "Speakers": {
+    "title": "Meet our 2024 speakers",
+    "description": "We're constantly adding new, exciting speakers to our lineup. Prepare to be inspired, motivated, and amazed as we bring you top-notch experts, thought leaders, and women role models. Stay tuned for updates on our growing list of speakers.",
+    "musk_name": "Maye Musk",
+    "musk": "international author, Doctor of Dietetics, supermodel, and speaker",
+    "malone_name": "Jo Malone",
+    "malone": "the legendary founder of the namesake fragrance brand",
+    "johnson_name": "Boris Johnson",
+    "johnson": "former Mayor of London and ex-Prime Minister of the United Kingdom",
+    "branson": "founder of the Virgin Group",
+    "branson_name": "Richard Branson",
+    "pence": "the distinguished former Vice President of the United States",
+    "pence_name": "Mike Pence",
+    "small_description": "The biggest mistake in life is limiting yourself to small goals.\u2028Encouraging to set big goals, overcoming barriers to success and reaching your full career potential.",
+    "experience": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent.",
+    "two_day": "A TWO-DAY STAGE PROGRAM",
+    "deep_dive": "A TWO-DAY STAGE PROGRAM",
+    "roundtables": "Roundtables",
+    "security": "Security corner",
+    "gala_dinner": "Gala dinner"
+  },
+  "Venues": {
+    "title": "Venues",
+    "uni": "CAEx Uzbekistan",
+    "description": "The new iconic landmark of Dubai, Atlantis The Royal is an ultra-luxury destination that has been designed to challenge the boundaries of imagination. For 2 days, be taken on an incredible journey where everything is possible and you can achieve it all. This is the place to realize your Big Goals and Bold Choices."
+  },
+  "Tickets": {
+    "title": "Choose you ticket",
+    "standard": {
+      "title": "standard",
+      "level": "B&C level",
+      "services": {
+        "access": "Access to the Conference hall (Standard rows free seating)",
+        "limit": "Unlimited food access in the shop",
+        "photo": "Access to the Photo zone",
+        "network": "Access to the Networking zone"
+      }
+    },
+    "premium": {
+      "title": "premium",
+      "level": "A level",
+      "services": {
+        "access": "Access to the Conference hall (Premium rows free seating)",
+        "limit": "Unlimited food access in the shop",
+        "photo": "Access to the Photo zone",
+        "network": "Access to the Networking zone",
+        "coupon": "Coupon for 15% discount for the next  event"
+      }
+    },
+    "vip": {
+      "title": "VIP",
+      "level": "VIP level",
+      "services": {
+        "access": "Access to the Conference hall (VIP rows free seating)",
+        "special": "Special registration desk",
+        "network": "VIP Networking Zone",
+        "lounge": "VIP Lounge Zone",
+        "buffet": "Flying Buffet",
+        "coupon": "Coupon for 20% discount for the next  event",
+        "separate": "Separate Private Locker Room",
+        "translation": "Synchronized Translation",
+        "headset": "Headset",
+        "photo": "Access to the Photo zone",
+        "vip_special": "Special Bracelets for VIP Accesses"
+      }
+    },
+    "sip": {
+      "title": "SIP",
+      "level": "SIP level",
+      "services": {
+        "access": "Access to the Conference hall (Leather Armchair FIRST rows free seating)",
+        "special": "Special registration desk",
+        "network": "VIP Networking Zone",
+        "lounge": "VIP Lounge Zone",
+        "buffet": "Flying Buffet",
+        "coupon": "Coupon for 25% discount for the next  event",
+        "separate": "Separate Private Locker Room",
+        "translation": "Synchronized Translation",
+        "headset": "Headset",
+        "photo": "Access to the Photo zone",
+        "sip_special": "Special Bracelets for SIP Accesses",
+        "assistance": "Privileged assistance from the Personnel"
+      }
+    }
+  },
+  "Why": {
+    "title": "Why edvent",
+    "descriptions": {
+      "push": {
+        "title": "Push your career",
+        "description": "Learn from the personal journeys of recognized role models, gain practical advice, receive expert support to advance your career and professional growth to attain success."
+      },
+      "empower": {
+        "title": "GET EMPOWERED",
+        "description": "Join the most unique meeting of women and men who empower women from around the world. Unlock your potential and be inspired to achieve your goals!"
+      },
+      "build": {
+        "title": "BUILD NEW CONNECTIONS",
+        "description": "Connect with a diverse community that wants to support you and find those who can help you ignite your brightest future."
+      }
+    }
+  },
+  "Feedback": {
+    "title": "WHAT PEOPLE SAY ABOUT EDVENT",
+    "feedback_text": "“One of the best and so professional Events, thank you”",
+    "name": "Zhanna Khan"
+  },
+  "Highlights": {
+    "title": "Edvent 2023 Highlights",
+    "description": "On March 7-8, 2023, the first WE Convention ignited change by celebrating International Women's Day at the Dubai Opera and Armani Hotel. Featuring influential speakers like Maye Musk and Natalia Vodianova, the kick-off event encouraged engaging discussions across multiple stages and sessions. This significant gathering laid a solid foundation for future WE Conventions, highlighting the global impact and importance of women's empowerment in business and beyond.",
+    "attendees": "attendees",
+    "countries": "countries",
+    "speakers": "speakers",
+    "stages": "stages",
+    "sessions": "sessions",
+    "media": "media coverage"
+  },
+  "Trailer": {
+    "title": "WATCH THE edvent 2023 TRAILER",
+    "subtitle": "MEET THE ESTEEMED COMPANIES THAT JOINED US AT THE edvent 2024",
+    "description": "We celebrate women's leadership and empower women with the support of these organizations. Partner with WE Convention. Join us to empower women worldwide in April 2024."
+  },
+  "Partners": {
+    "title": "Partners"
+  },
+  "Opportunity": {
+    "title": "VOLUNTEER OPPORTUNITIES AT THE edvent 2024",
+    "description": "As the WE Convention continues to grow and inspire, we are excited to announce that this year we are opening our doors to volunteer support. This is a unique opportunity to become an integral part of one of the most significant global women's leadership events.",
+    "balls": "We are looking for passionate, dedicated individuals who are eager to contribute to the success of the convention.",
+    "instructions": "TO APPLY, PLEASE SEND YOUR RESUME ALONG WITH A BRIEF NOTE EXPLAINING WHY YOU WOULD LIKE TO VOLUNTEER AT THE WE CONVENTION TO OUR “JOIN US“ EMAIL AT VOLUNTEERS@WECONVENTION.COM. SHARE WITH US ANY SPECIFIC SKILLS OR EXPERIENCES THAT YOU BELIEVE WOULD CONTRIBUTE TO YOUR ROLE AS A VOLUNTEER.",
+    "how_to_apply": "HOW TO APPLY",
+    "greet": "We look forward to receiving your application and potentially welcoming you to our dynamic volunteer team!"
+  },
+  "Cta": {
+    "buy_ticket": "Buy ticket",
+    "become_partner": "Become partner",
+    "program": "Program",
+    "photos": "Photos"
+  },
+  "Footer": {
+    "speakers": "Dashboard",
+    "venues": "Venues",
+    "tickets": "Tickets",
+    "program": "Program",
+    "partners": "Dashboard",
+    "contacts": "Contacts",
+    "all_rights": "All Rights Reserved",
+    "address": "264, Milliy bog street Toshkent"
   }
 }
