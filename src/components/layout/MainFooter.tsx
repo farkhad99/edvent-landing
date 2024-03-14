@@ -1,74 +1,89 @@
-import { AppConfig } from "@/utils/AppConfig"
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+
 import LocaleSwitcher from '@/components/LocaleSwitcher';
-import Link from "next/link";
+import { AppConfig } from '@/utils/AppConfig';
 
 const MainFooter = () => {
-  const t = useTranslations()
+  const t = useTranslations();
 
   return (
-    <footer className="bg-black p-8 flex flex-col md:flex-row justify-between text-center text-sm text-white">
-
-      <div className="flex flex-col gap-2 text-md">
+    <footer className="flex flex-col justify-between bg-black p-8 py-12 text-center text-sm text-white md:flex-row">
+      <div className="flex flex-col gap-2">
         <div className="text-left">
-            <Image
-              alt="Edvent logo"
-              width={170}
-              height={15}
-            src="/assets/images/header-logo.png" />
-          
+          <Image
+            alt="Edvent logo"
+            width={170}
+            height={15}
+            src="/assets/images/header-logo.png"
+          />
+
           <p className="py-6">
             © Copyright {new Date().getFullYear()} {AppConfig.name} <br />
-            {t("Footer.all_rights")}
+            {t('Footer.all_rights')}
           </p>
 
-          <p>{t("Footer.address")}</p>
+          <p>{t('Footer.address')}</p>
         </div>
       </div>
 
       <div className="my-6 md:my-0">
         <nav>
-          <ul className="flex flex-col flex-wrap text-left gap-y-2">
-            <li>{t('Header.speakers')}</li>
-            <li>{t('Header.venues')}</li>
-            <li>{t('Header.tickets')}</li>
-            <li>{t('Header.program')}</li>
-            <li>{t('Header.partners')}</li>
+          <ul className="flex flex-col flex-wrap gap-y-2 text-left">
+            <li><a href="#speakers">{t('Header.speakers')}</a></li>
+            <li><a href="#venues">{t('Header.venues')}</a></li>
+            <li><a href="#tickets">{t('Header.tickets')}</a></li>
+            <li><a href="/program">{t('Header.program')}</a></li>
+            <li><a href="#partners">{t('Header.partners')}</a></li>
           </ul>
         </nav>
       </div>
 
       <div className="text-left text-base">
-        <p className="pb-2">{t("Footer.contacts")}</p>
+        <p className="pb-2">{t('Footer.contacts')}</p>
         <p>+998(50)724-01-64</p>
         <p>info@edvent.uz</p>
       </div>
 
-      <div className="flex flex-col gap-y-2 mt-6 md:mt-0">
+      <div className="mt-6 flex flex-col gap-y-2 md:mt-0">
         <LocaleSwitcher />
 
-        <div className='flex justify-end'>
+        <div className="flex justify-end">
           <Link href="youtube.com">
-            <button className="rounded-full p-2 bg-white">
-              <Image alt="insta-link" width={16} height={18} src="/assets/images/youtube-icon.svg" />
+            <button type="button" className="rounded-full bg-white p-2">
+              <Image
+                alt="insta-link"
+                width={16}
+                height={18}
+                src="/assets/images/youtube-icon.svg"
+              />
             </button>
           </Link>
           <Link href="instagram.com">
-            <button className="rounded-full p-2 mx-3 bg-white">
-              <Image alt="insta-link" width={16} height={18} src="/assets/images/instagram-icon.svg" />
+            <button type="button" className="mx-3 rounded-full bg-white p-2">
+              <Image
+                alt="insta-link"
+                width={16}
+                height={18}
+                src="/assets/images/instagram-icon.svg"
+              />
             </button>
           </Link>
           <Link href="instagram.com">
-            <button className="rounded-full p-2 bg-white">
-              <Image alt="tg-link" width={16} height={18} src="/assets/images/telegram-icon.svg" />
+            <button type="button" className="rounded-full bg-white p-2">
+              <Image
+                alt="tg-link"
+                width={16}
+                height={18}
+                src="/assets/images/telegram-icon.svg"
+              />
             </button>
           </Link>
         </div>
       </div>
     </footer>
-  )
+  );
+};
 
-}
-
-export { MainFooter }
+export { MainFooter };

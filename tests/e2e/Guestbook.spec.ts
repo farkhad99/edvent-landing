@@ -4,7 +4,7 @@ import { expect, test } from '@playwright/test';
 test.describe('Guestbook', () => {
   test.describe('CRUD operation', () => {
     test('should browse to guestbook, crate a new entry, read, update and remove the newly created', async ({
-      page,
+      page
     }) => {
       await page.goto('/guestbook');
       await expect(page.getByText('Username')).toBeVisible();

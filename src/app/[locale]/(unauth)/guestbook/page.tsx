@@ -9,12 +9,12 @@ import { GuestbookList } from '@/components/GuestbookList';
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
-    namespace: 'Guestbook',
+    namespace: 'Guestbook'
   });
 
   return {
     title: t('meta_title'),
-    description: t('meta_description'),
+    description: t('meta_description')
   };
 }
 

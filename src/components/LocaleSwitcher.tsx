@@ -1,5 +1,7 @@
 'use client';
+
 import { useLocale } from 'next-intl';
+
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
 
 export default function LocaleSwitcher() {
@@ -12,15 +14,20 @@ export default function LocaleSwitcher() {
     router.refresh();
   };
 
-  const locales = [{label: 'English', value:'en'}, {label: 'Русский', value: 'ru'}]
+  const locales = [
+    { label: 'English', value: 'en' },
+    { label: 'Русский', value: 'ru' }
+  ];
 
   return (
-    <div className='flex justify-end items-center mb-6 gap-4 text-xs'>
+    <div className="mb-6 flex items-center justify-end gap-4 text-xs">
       {locales.map((l) => (
         <button
+          type="button"
           onClick={() => handleChange(l.value)}
           key={l.value}
-          className={`p-1 px-6 border-white pb-[2px] border-2 uppercase text-center items-center ${ locale === l.value ? 'bg-white text-black' : 'text-white' }`}>
+          className={`items-center border-2 border-white p-1 px-6 pb-[2px] text-center uppercase ${locale === l.value ? 'bg-white text-black' : 'text-white'}`}
+        >
           {l.label}
         </button>
       ))}

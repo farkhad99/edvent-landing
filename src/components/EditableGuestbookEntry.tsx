@@ -47,7 +47,7 @@ const EditableGuestbookEntry = (props: {
             id={props.id}
             defaultValues={{
               username: props.username,
-              body: props.body,
+              body: props.body
             }}
             handleStopEditing={handleStopEditing}
           />

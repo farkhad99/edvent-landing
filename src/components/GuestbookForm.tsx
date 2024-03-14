@@ -22,10 +22,10 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     handleSubmit,
     register,
     reset,
-    formState: { errors },
+    formState: { errors }
   } = useForm<z.infer<typeof GuestbookValidation>>({
     resolver: zodResolver(GuestbookValidation),
-    defaultValues: props.edit ? props.defaultValues : undefined,
+    defaultValues: props.edit ? props.defaultValues : undefined
   });
   const router = useRouter();
   const t = useTranslations('GuestbookForm');
@@ -35,12 +35,12 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
       await fetch(`/api/guestbook`, {
         method: 'PUT',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           id: props.id,
-          ...data,
-        }),
+          ...data
+        })
       });
 
       props.handleStopEditing();
@@ -48,9 +48,9 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
       await fetch(`/api/guestbook`, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(data)
       });
 
       reset();

@@ -6,13 +6,13 @@ test.use({ userAgent: '' });
 test.describe('Guestbook', () => {
   test.describe('Basic CRUD operations', () => {
     test('should create a new entry in the guestbook and delete it', async ({
-      request,
+      request
     }) => {
       const create = await request.post('/api/guestbook', {
         data: {
           username: 'RANDOM_USERNAME',
-          body: 'RANDOM_BODY',
-        },
+          body: 'RANDOM_BODY'
+        }
       });
       const createJson = await create.json();
 
@@ -21,8 +21,8 @@ test.describe('Guestbook', () => {
 
       const del = await request.delete('/api/guestbook', {
         data: {
-          id: createJson.id,
-        },
+          id: createJson.id
+        }
       });
       expect(del.status()).toBe(200);
     });

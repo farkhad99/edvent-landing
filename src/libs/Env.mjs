@@ -8,10 +8,10 @@ export const Env = createEnv({
     CLERK_SECRET_KEY: z.string().min(1),
     DATABASE_URL: z.string().min(1),
     DATABASE_AUTH_TOKEN: z.string().optional(),
-    LOGTAIL_SOURCE_TOKEN: z.string().optional(),
+    LOGTAIL_SOURCE_TOKEN: z.string().optional()
   },
   client: {
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1)
   },
   // You need to destructure all the keys manually
   runtimeEnv: {
@@ -20,6 +20,6 @@ export const Env = createEnv({
     DATABASE_AUTH_TOKEN: process.env.DATABASE_AUTH_TOKEN,
     LOGTAIL_SOURCE_TOKEN: process.env.LOGTAIL_SOURCE_TOKEN,
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
-      process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-  },
+      process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+  }
 });

@@ -9,11 +9,11 @@ const DeleteGuestbookEntry = (props: { id: number }) => {
     await fetch(`/api/guestbook`, {
       method: 'DELETE',
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        id: props.id,
-      }),
+        id: props.id
+      })
     });
 
     router.refresh();

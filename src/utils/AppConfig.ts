@@ -7,5 +7,5 @@ export const AppConfig = {
   name: 'Edvent',
   locales: ['en', 'ru'],
   defaultLocale: 'en',
-  localePrefix,
+  localePrefix
 };

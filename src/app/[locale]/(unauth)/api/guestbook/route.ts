@@ -7,7 +7,7 @@ import { guestbookSchema } from '@/models/Schema';
 import {
   DeleteGuestbookValidation,
   EditGuestbookValidation,
-  GuestbookValidation,
+  GuestbookValidation
 } from '@/validations/GuestbookValidation';
 
 export const POST = async (request: Request) => {
@@ -27,7 +27,7 @@ export const POST = async (request: Request) => {
     logger.info('A new guestbook has been created');
 
     return NextResponse.json({
-      id: guestbook[0]?.id,
+      id: guestbook[0]?.id
     });
   } catch (error) {
     logger.error(error, 'An error occurred while creating a guestbook');
@@ -49,7 +49,7 @@ export const PUT = async (request: Request) => {
       .update(guestbookSchema)
       .set({
         ...parse.data,
-        updatedAt: sql`(strftime('%s', 'now'))`,
+        updatedAt: sql`(strftime('%s', 'now'))`
       })
       .where(eq(guestbookSchema.id, parse.data.id))
       .run();
