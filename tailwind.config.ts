@@ -3,9 +3,14 @@ import type { Config } from 'tailwindcss';
 export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      'sans': ['"TT Norms"']
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
+      default: '14px',
+      16: '16px',
       base: '1rem',
       lg: '1.125rem',
       xl: '1.25rem',
@@ -18,8 +23,8 @@ export default {
     extend: {
       colors: {
         gray: {
-          100: '#f7fafc',
-          200: '#edf2f7',
+          100: '#939393',
+          200: '#eeeeee',
           300: '#e2e8f0',
           400: '#cbd5e0',
           500: '#a0aec0',

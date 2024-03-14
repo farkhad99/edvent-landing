@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.swiper-button-prev, .swiper-button-next {
+  color: gray!important;
+  height: 60px;
+}
+
+.swiper-pagination-bullet-active {
+  background: gray!important
+}

@@ -3,8 +3,14 @@ import '@/styles/global.css';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
-
+import { BaseTemplate } from '@/templates/BaseTemplate';
 import { AppConfig } from '@/utils/AppConfig';
+import { Roboto } from '@next/font/google'
+
+const roboto = Roboto({
+  subsets: ['cyrillic', 'latin'],
+  weight: ['400', '500', '700', '900']
+})
 
 export const metadata: Metadata = {
   icons: [
@@ -42,20 +48,17 @@ export default function RootLayout(props: {
   const messages = useMessages();
 
   return (
-    <html lang={props.params.locale}>
+    <html lang={props.params.locale} className={`${roboto.className} text-default`}>
       <body>
         <NextIntlClientProvider
           locale={props.params.locale}
           messages={messages}
         >
-          {props.children}
+          <BaseTemplate>
+            {props.children}
+          </BaseTemplate>
         </NextIntlClientProvider>
       </body>
     </html>
   );
 }
-
-// Enable edge runtime but you are required to disable the `migrate` function in `src/libs/DB.ts`
-// Unfortunately, this also means it will also disable the automatic migration of the database
-// And, you will have to manually migrate it with `drizzle-kit push`
-// export const runtime = 'edge';

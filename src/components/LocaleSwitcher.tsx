@@ -1,32 +1,29 @@
 'use client';
-
 import { useLocale } from 'next-intl';
-import type { ChangeEventHandler } from 'react';
-
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
-import { AppConfig } from '@/utils/AppConfig';
 
 export default function LocaleSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
 
-  const handleChange: ChangeEventHandler<HTMLSelectElement> = (event) => {
-    router.push(pathname, { locale: event.target.value });
+  const handleChange = (value: string) => {
+    router.push(pathname, { locale: value });
     router.refresh();
   };
 
+  const locales = [{label: 'English', value:'en'}, {label: 'Русский', value: 'ru'}]
+
   return (
-    <select
-      defaultValue={locale}
-      onChange={handleChange}
-      className="border border-gray-300 font-medium focus:outline-none focus-visible:ring"
-    >
-      {AppConfig.locales.map((elt) => (
-        <option key={elt} value={elt}>
-          {elt.toUpperCase()}
-        </option>
+    <div className='flex justify-end items-center mb-6 gap-4 text-xs'>
+      {locales.map((l) => (
+        <button
+          onClick={() => handleChange(l.value)}
+          key={l.value}
+          className={`p-1 px-6 border-white pb-[2px] border-2 uppercase text-center items-center ${ locale === l.value ? 'bg-white text-black' : 'text-white' }`}>
+          {l.label}
+        </button>
       ))}
-    </select>
+    </div>
   );
 }
