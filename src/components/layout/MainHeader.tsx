@@ -31,24 +31,24 @@ const MainHeader = () => {
         <div className='hidden xl:block'>{t("Header.date")} </div>
         <div className='flex'>
           <Link href="instagram.com">
-            <button className="rounded-full p-2 mx-3 bg-white">
+            <button className="rounded-full p-2 mx-3 bg-white" type='button'>
               <Image alt="insta-link" width={16} height={18} src="/assets/images/instagram-icon.svg" />
             </button>
           </Link>
           <Link href="instagram.com">
-            <button className="rounded-full p-2 bg-white mr-6">
+            <button className="rounded-full p-2 bg-white mr-6" type='button'>
               <Image alt="tg-link" width={16} height={18} src="/assets/images/telegram-icon.svg" />
             </button>
           </Link>
         </div>
         
         <div className='flex justify-end'>
-          <button className="p-2 px-8 text-black bg-white border-2 border-white uppercase mr-3">{ t("Cta.buy_ticket") }</button>
-          <button className="p-2 px-6 uppercase border-2 border-white">{ t("Cta.become_partner") }</button>
+          <button type='button' className="p-2 px-8 text-black bg-white border-2 border-white uppercase mr-3">{ t("Cta.buy_ticket") }</button>
+          <button type='button' className="p-2 px-6 uppercase border-2 border-white">{ t("Cta.become_partner") }</button>
         </div>
       </div>
 
-      <button className='md:hidden'>
+      <button className='md:hidden' type='button'>
         <div className='py-[2px] w-12 bg-white'></div>
         <div className='py-[2px] w-12 bg-white my-2'></div>
         <div className='py-[2px] w-12 bg-white'></div>

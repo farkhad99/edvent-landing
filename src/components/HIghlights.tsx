@@ -3,7 +3,6 @@ import bannerimg from '../../public/assets/images/why-edvent-banner.png'
 
 const Highlights = () => {
   const t = useTranslations();
-  const mainImage = `url(${bannerimg.src})`
 
   return (
     <div className='bg-gray-200 p-10'>
