@@ -23,13 +23,17 @@ const MainHeader = (props: { toggleSidebar: any }) => {
               <a href="#speakers">{t('Header.speakers')}</a>
             </li>
             <li>
-            <a href="#venues">
-                {t('Header.venues')}
-              </a>
+              <a href="#venues">{t('Header.venues')}</a>
             </li>
-            <li><a href="#tickets">{t('Header.tickets')}</a></li>
-            <li><a href="/program">{t('Header.program')}</a></li>
-            <li><a href="#partners">{t('Header.partners')}</a></li>
+            <li>
+              <a href="#tickets">{t('Header.tickets')}</a>
+            </li>
+            <li>
+              <a href="/program">{t('Header.program')}</a>
+            </li>
+            <li>
+              <a href="#partners">{t('Header.partners')}</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -75,7 +79,12 @@ const MainHeader = (props: { toggleSidebar: any }) => {
         </div>
       </div>
 
-      <button className="md:hidden" type="button" onClick={() => props.toggleSidebar(true)}>
+      <button
+        className="md:hidden"
+        type="button"
+        onClick={() => props.toggleSidebar(true)}
+        aria-label="Open sidebar"
+      >
         <div className="w-12 bg-white py-[2px]" />
         <div className="my-2 w-12 bg-white py-[2px]" />
         <div className="w-12 bg-white py-[2px]" />

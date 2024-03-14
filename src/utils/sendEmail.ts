@@ -1,11 +1,11 @@
-import { FormData } from '@/components/program/ProgramForm';
+import type { FormData } from '@/components/program/ProgramForm';
 
 export function sendEmail(data: FormData) {
   const apiEndpoint = '/api/email';
 
   return fetch(apiEndpoint, {
     method: 'POST',
-    body: JSON.stringify(data),
+    body: JSON.stringify(data)
   })
     .then((res) => res.json())
     .then((response) => {

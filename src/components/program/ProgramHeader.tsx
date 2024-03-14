@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+
 import bannerimg from '../../../public/assets/images/program-banner.png';
 
 const ProgramHeader = () => {
@@ -16,7 +17,9 @@ const ProgramHeader = () => {
       <h1 className="max-w-[800px] px-4 text-center text-3xl font-bold uppercase text-white md:text-5xl">
         {t('Program.title')}
       </h1>
-      <p className="mt-2 px-4 max-w-[800px] text-center md:text-xl">{t('Program.description')}</p>
+      <p className="mt-2 max-w-[800px] px-4 text-center md:text-xl">
+        {t('Program.description')}
+      </p>
     </div>
   );
 };

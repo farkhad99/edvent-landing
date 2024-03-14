@@ -1,9 +1,25 @@
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
-import Mail from 'nodemailer/lib/mailer';
+import type Mail from 'nodemailer/lib/mailer';
+
+const welcomeTemplate = (name: string) => {
+  return `
+    Hi ${name || ''},
+
+    Welcome to Edvent, here is the welcome text
+    
+    Get started https://edvent.com
+    
+    Best,
+    The Edvent team
+    
+    --------------------------------------------------------------------------------
+    
+    264, Milliy bog street Toshkent`;
+};
 
 export async function POST(request: NextRequest) {
-  const { email, name, message } = await request.json();
+  const { email, name } = await request.json();
 
   const transport = nodemailer.createTransport({
     service: 'gmail',
@@ -18,16 +34,16 @@ export async function POST(request: NextRequest) {
   */
     auth: {
       user: process.env.EMAIL,
-      pass: process.env.EMAIL_PASSWORD,
-    },
+      pass: process.env.EMAIL_PASSWORD
+    }
   });
 
   const mailOptions: Mail.Options = {
     from: process.env.EMAIL,
     to: process.env.EMAIL,
-    cc: email, 
-    subject: `Message from ${name} (${email})`,
-    text: message,
+    cc: email,
+    subject: `Welcome ${name} (${email})`,
+    text: welcomeTemplate(name)
   };
 
   const sendMailPromise = () =>

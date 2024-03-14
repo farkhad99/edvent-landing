@@ -1,11 +1,16 @@
 const Loader = (props: { color?: string }) => {
-
   return (
-    <div className='flex space-x-2 justify-center items-center bg-white'>
-      <span className='sr-only'>Loading...</span>
-      <div className={`h-6 w-6 bg-${props.color ?? 'black'} rounded-full animate-bounce [animation-delay:-0.3s]`}></div>
-      <div className={`h-6 w-6 bg-${props.color ?? 'black'} rounded-full animate-bounce [animation-delay:-0.15s]`}></div>
-      <div className={`h-6 w-6 bg-${props.color ?? 'black'} rounded-full animate-bounce`}></div>
+    <div className="flex items-center justify-center space-x-2 bg-white">
+      <span className="sr-only">Loading...</span>
+      <div
+        className={`bg- size-6${props.color ?? 'black'} animate-bounce rounded-full [animation-delay:-0.3s]`}
+      />
+      <div
+        className={`bg- size-6${props.color ?? 'black'} animate-bounce rounded-full [animation-delay:-0.15s]`}
+      />
+      <div
+        className={`bg- size-6${props.color ?? 'black'} animate-bounce rounded-full`}
+      />
     </div>
   );
 };

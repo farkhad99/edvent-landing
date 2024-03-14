@@ -116,10 +116,16 @@ const SpeakersVision = () => {
         </div>
 
         <div className="my-6 flex justify-center pt-4">
-          <button type='button' className="mr-3 border-2 border-white bg-white p-2 px-10 uppercase text-black">
+          <button
+            type="button"
+            className="mr-3 border-2 border-white bg-white p-2 px-10 uppercase text-black"
+          >
             {t('Cta.buy_ticket')}
           </button>
-          <button type='button' className="border-2 border-white p-2 px-12 uppercase text-white">
+          <button
+            type="button"
+            className="border-2 border-white p-2 px-12 uppercase text-white"
+          >
             {t('Cta.program')}
           </button>
         </div>

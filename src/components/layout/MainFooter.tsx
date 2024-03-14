@@ -31,11 +31,21 @@ const MainFooter = () => {
       <div className="my-6 md:my-0">
         <nav>
           <ul className="flex flex-col flex-wrap gap-y-2 text-left">
-            <li><a href="#speakers">{t('Header.speakers')}</a></li>
-            <li><a href="#venues">{t('Header.venues')}</a></li>
-            <li><a href="#tickets">{t('Header.tickets')}</a></li>
-            <li><a href="/program">{t('Header.program')}</a></li>
-            <li><a href="#partners">{t('Header.partners')}</a></li>
+            <li>
+              <a href="#speakers">{t('Header.speakers')}</a>
+            </li>
+            <li>
+              <a href="#venues">{t('Header.venues')}</a>
+            </li>
+            <li>
+              <a href="#tickets">{t('Header.tickets')}</a>
+            </li>
+            <li>
+              <a href="/program">{t('Header.program')}</a>
+            </li>
+            <li>
+              <a href="#partners">{t('Header.partners')}</a>
+            </li>
           </ul>
         </nav>
       </div>

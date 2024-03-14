@@ -83,6 +83,8 @@ const Tickets = () => {
                     />
                   </div>
                   <p className="-mt-1 text-sm font-thin">
+                    {/* 
+                    // @ts-ignore */}
                     {t(`Tickets.standard.services.${s}`)}
                   </p>
                 </li>
@@ -112,6 +114,8 @@ const Tickets = () => {
                     />
                   </div>
                   <p className="-mt-1 text-sm font-thin">
+                    {/* 
+                    // @ts-ignore */}
                     {t(`Tickets.premium.services.${s}`)}
                   </p>
                 </li>
@@ -141,6 +145,8 @@ const Tickets = () => {
                     />
                   </div>
                   <p className="-mt-1 text-sm font-thin">
+                    {/* 
+                    // @ts-ignore */}
                     {t(`Tickets.vip.services.${s}`)}
                   </p>
                 </li>
@@ -170,6 +176,8 @@ const Tickets = () => {
                     />
                   </div>
                   <p className="-mt-1 text-sm font-thin">
+                    {/* 
+                    // @ts-ignore */}
                     {t(`Tickets.sip.services.${s}`)}
                   </p>
                 </li>

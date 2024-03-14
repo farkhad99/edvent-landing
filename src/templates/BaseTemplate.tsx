@@ -1,16 +1,17 @@
-'use client'
+'use client';
+
+import { useState } from 'react';
+
 import { MainFooter } from '@/components/layout/MainFooter';
 import { MainHeader } from '@/components/layout/MainHeader';
 import { Sidebar } from '@/components/layout/Sidebar';
-import { useState } from 'react';
 
 const BaseTemplate = (props: { children: React.ReactNode }) => {
-
-  const [isModalOpen, toggleSidebar] = useState(false)
+  const [isModalOpen, toggleSidebar] = useState(false);
 
   const closeSidebar = () => {
-    toggleSidebar(false)
-  }
+    toggleSidebar(false);
+  };
 
   return (
     <div className="w-full text-gray-700 antialiased">

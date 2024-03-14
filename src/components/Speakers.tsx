@@ -10,7 +10,10 @@ const Speakers = () => {
   const t = useTranslations();
 
   return (
-    <div className="flex flex-col items-center justify-between gap-3 p-10" id="speakers">
+    <div
+      className="flex flex-col items-center justify-between gap-3 p-10"
+      id="speakers"
+    >
       <h1 className="text-center text-3xl font-bold uppercase text-gray-100 md:text-5xl">
         {t('Speakers.title')}
       </h1>

@@ -1,9 +1,12 @@
-'use client'
+'use client';
+
 import { useTranslations } from 'next-intl';
-import { useForm } from 'react-hook-form';
-import bannerimg from '../../../public/assets/images/about-banner.png';
-import { sendEmail } from '@/utils/sendEmail';
 import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+
+import { sendEmail } from '@/utils/sendEmail';
+
+import bannerimg from '../../../public/assets/images/about-banner.png';
 import { Loader } from '../Loader';
 
 export type FormData = {
@@ -13,14 +16,14 @@ export type FormData = {
 const ProgramForm = () => {
   const t = useTranslations();
   const { register, handleSubmit, reset } = useForm<FormData>();
-  const [isLoading, setLoading] = useState(false)
+  const [isLoading, setLoading] = useState(false);
 
   const onSubmit = async (data: FormData) => {
-    setLoading(true)
+    setLoading(true);
     await sendEmail(data);
-    setLoading(false)
-    reset()
-  }
+    setLoading(false);
+    reset();
+  };
 
   const mainImage = `url(${bannerimg.src})`;
 
@@ -37,19 +40,25 @@ const ProgramForm = () => {
         style={{ backgroundColor: 'rgba(0, 0, 0, 0.9)' }}
       />
       <div className="relative z-20 flex flex-col items-center justify-around gap-4 px-6 py-16 text-white">
-        <p className="text-center text-xl md:text-3xl font-bold uppercase max-w-[800px]">
+        <p className="max-w-[800px] text-center text-xl font-bold uppercase md:text-3xl">
           {t('Program.form_title')}
         </p>
 
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col md:flex-row gap-3 w-full max-w-[400px] mt-6 md:max-w-[800px] text-black'>
-          <input type='email' className='p-3 flex-grow' placeholder={t('Program.email_example')} {...register('email', {
-            required: true, pattern: {
-                    value: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
-                  }
-            })} />
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="mt-6 flex w-full max-w-[400px] flex-col gap-3 text-black md:max-w-[800px] md:flex-row"
+        >
+          <input
+            type="email"
+            className="grow p-3"
+            placeholder={t('Program.email_example')}
+            {...register('email', {
+              required: true
+            })}
+          />
           <button
             type="submit"
-            className={`border-2 ${isLoading && 'bg-white'} border-white p-3 uppercase flex-grow-0 md:w-[180px] text-white hover:bg-white hover:text-black`}
+            className={`border-2 ${isLoading && 'bg-white'} grow-0 border-white p-3 uppercase text-white hover:bg-white hover:text-black md:w-[180px]`}
             disabled={isLoading}
           >
             {!isLoading ? t('Cta.send') : <Loader />}

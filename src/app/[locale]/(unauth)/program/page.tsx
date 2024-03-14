@@ -1,8 +1,8 @@
+import { getTranslations } from 'next-intl/server';
+
 import { LearningTracks } from '@/components/program/LearningTracks';
 import { ProgramForm } from '@/components/program/ProgramForm';
 import { ProgramHeader } from '@/components/program/ProgramHeader';
-import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -17,8 +17,6 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 const Program = () => {
-  const t = useTranslations('Guestbook');
-
   return (
     <>
       <ProgramHeader />
