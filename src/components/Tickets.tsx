@@ -73,7 +73,7 @@ const Tickets = () => {
             <p className='text-center py-2 font-medium text-lg'>{ t('Tickets.standard.level') }</p>
             <ul className='px-2 pb-1'>
               {standard.services.map(s => (
-                <li className='flex gap-2 py-1'>
+                <li className='flex gap-2 py-1' key={s}>
                   <div className='flex-shrink-0'><Image alt="verified" src="/assets/images/verified-icon.svg" width={16} height={16} /></div>
                   <p className='-mt-1 text-sm font-thin'>{t(`Tickets.standard.services.${s}`)}</p>
                 </li>
@@ -89,7 +89,7 @@ const Tickets = () => {
             <p className='text-center py-2 font-medium text-lg'>{ t('Tickets.premium.level') }</p>
             <ul className='px-2 pb-1'>
               {premium.services.map(s => (
-                <li className='flex gap-2 py-1'>
+                <li className='flex gap-2 py-1' key={s}>
                   <div className='flex-shrink-0'><Image alt="verified" src="/assets/images/verified-icon.svg" width={16} height={16} /></div>
                   <p className='-mt-1 text-sm font-thin'>{t(`Tickets.premium.services.${s}`)}</p>
                 </li>
@@ -105,7 +105,7 @@ const Tickets = () => {
             <p className='text-center py-2 font-medium text-lg'>{ t('Tickets.vip.level') }</p>
             <ul className='px-2 pb-1'>
               {vip.services.map(s => (
-                <li className='flex gap-2 py-1'>
+                <li className='flex gap-2 py-1' key={s}>
                   <div className='flex-shrink-0'><Image alt="verified" src="/assets/images/verified-icon.svg" width={16} height={16} /></div>
                   <p className='-mt-1 text-sm font-thin'>{t(`Tickets.vip.services.${s}`)}</p>
                 </li>
@@ -121,7 +121,7 @@ const Tickets = () => {
             <p className='text-center py-2 font-medium text-lg'>{ t('Tickets.sip.level') }</p>
             <ul className='px-2 pb-1'>
               {sip.services.map(s => (
-                <li className='flex gap-2 py-1'>
+                <li className='flex gap-2 py-1' key={s}>
                   <div className='flex-shrink-0'><Image alt="verified" src="/assets/images/verified-icon.svg" width={16} height={16} /></div>
                   <p className='-mt-1 text-sm font-thin'>{t(`Tickets.sip.services.${s}`)}</p>
                 </li>
