@@ -8,12 +8,14 @@ const MainHeader = (props: { toggleSidebar: any }) => {
   return (
     <header className="absolute z-50 flex w-full items-center justify-between px-8 py-4 pt-6 text-white">
       <div className="">
-        <Image
-          alt="Edvent logo"
-          width={170}
-          height={15}
-          src="/assets/images/header-logo.png"
-        />
+        <Link href="/">
+          <Image
+            alt="Edvent logo"
+            width={170}
+            height={15}
+            src="/assets/images/header-logo.png"
+          />
+        </Link>
       </div>
 
       <div className="hidden justify-between lg:flex">

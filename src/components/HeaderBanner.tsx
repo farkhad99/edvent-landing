@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/header-banner.png';
+import bannerimg from '../../public/assets/images/_DSC0011.jpg';
 
 const HeaderBanner = () => {
   const t = useTranslations();

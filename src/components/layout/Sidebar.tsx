@@ -26,19 +26,19 @@ const Sidebar = (props: { closeSidebar: () => void; isOpen: boolean }) => {
         <nav>
           <ul className="flex flex-col gap-5 text-xl">
             <li>
-              <a href="#speakers">{t('Header.speakers')}</a>
+              <a href="/#speakers">{t('Header.speakers')}</a>
             </li>
             <li>
-              <a href="#venues">{t('Header.venues')}</a>
+              <a href="/#venues">{t('Header.venues')}</a>
             </li>
             <li>
-              <a href="#tickets">{t('Header.tickets')}</a>
+              <a href="/#tickets">{t('Header.tickets')}</a>
             </li>
             <li>
               <a href="/program">{t('Header.program')}</a>
             </li>
             <li>
-              <a href="#partners">{t('Header.partners')}</a>
+              <a href="/#partners">{t('Header.partners')}</a>
             </li>
           </ul>
         </nav>
