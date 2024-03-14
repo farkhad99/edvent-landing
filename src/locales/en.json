@@ -220,7 +220,9 @@
     "buy_ticket": "Buy ticket",
     "become_partner": "Become partner",
     "program": "Program",
-    "photos": "Photos"
+    "photos": "Photos",
+    "send": "Send",
+    "back_to_main": "Back to main"
   },
   "Footer": {
     "speakers": "Dashboard",
@@ -231,5 +233,37 @@
     "contacts": "Contacts",
     "all_rights": "All Rights Reserved",
     "address": "264, Milliy bog street Toshkent"
+  },
+  "Program": {
+    "title": "BIG GOALS AND BOLD CHOICES",
+    "meta_title": "BIG GOALS AND BOLD CHOICES",
+    "meta_description": "Welcome to my Program page!",
+    "description": "EXPLORE 11 TRACKS OF PROGRAMMING ACROSS A VARIETY OF FORMATS INCLUDING KEYNOTES, FIRESIDES, PANELS, WORKSHOPS, MORE.",
+    "learning_tracks": "LEARNING TRACKS",
+    "money": "money",
+    "money_info": "The numerous misconceptions about money keep us financially unhealthy, whereas money gives us freedom to live on our terms. Learn how to take control of your finances, invest wisely, achieve your financial goals, and simply how to enjoy money.",
+    "enterpreneurship": "Entrepreneurship",
+    "enterpreneurship_info": "Entrepreneurship may seem scary with all the challenges, fear of failure and the fast-paced environment. Geared towards experienced entrepreneurs and those just starting out, the track covers case studies, success stories, and epic fails that make entrepreneurship so compelling.",
+    "health_info": "Mental health is often undervalued in the pursuit of the career, yet a good mental and overall well-being enhances productivity and leads to rewarding and fulfilling professional and personal outcomes.",
+    "health": "Health & Wellbeing",
+    "creator": "Creator Economy",
+    "creator_info": "Dive into the most intriguing new concepts in creator-made content, as well as innovative distribution methods, monetization strategies and brand partnerships for this pioneering form of media.",
+    "leadership_info": "Dive into effective communication, decision-making, team building, conflict resolution, and other necessary skills for successful leadership. Prominent women leaders will share their experiences, insights, and advice on how to excel as a leader.",
+    "leadership": "leadership",
+    "brand": "Brand Experience",
+    "brand_info": "The programming examines compelling strategies to make a brand a consistent thread at every stage, new ways of connecting with communities, traditional, digital, and experiential marketing practices to engage audiences.",
+    "architecture": "Architecture & Design",
+    "architecture_info": "As the world becomes more urbanized, the need for livable cities becomes ever more pressing. Content will focus on urban planning, sustainable infrastructure, social cohesion, and cultural richness.",
+    "technologies": "Technologies",
+    "technologies_info": "Featuring the latest trends and innovations, that are driving the world’s next wave of change in the tech industry. A special focus is given to how AI and ChatGPT can help to enhance career and personal growth even for those outside of IT.",
+    "fashion": "Fashion & Beauty",
+    "fashion_info": "Join us on a fashion & beauty journey where we explore the full process from research, design and manufacturing to innovations and the future of business, and meet the most remarkable leaders of the industry.",
+    "career": "Career Advancement",
+    "career_info": "Sessions will tackle different approaches to accelerate career growth and advance professionally, investigate insights and strategies to understand what drives you, helps you gain critical experiences, and build skills for the future.",
+    "success": "Success",
+    "success_info": "Some work for peanuts while others attain great success. Explore a pragmatic approach to achieving professional goals and building a lifestyle of sustained accomplishment, without losing yourself or your values along the way.",
+    "form_title": "EDVENT AGENDA IS UNDERWAY. PLEASE LEAVE YOUR EMAIL BELOW AND WE WILL NOTIFY YOU WHEN IT IS PUBLISHED.",
+    "email_example": "example@gmail.com",
+    "email_thanks": "Thank you, we have sent you an email!"
   }
 }

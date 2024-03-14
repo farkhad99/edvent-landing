@@ -1,6 +1,6 @@
 import '@/styles/global.css';
 
-import { Roboto } from '@next/font/google';
+import { Roboto } from 'next/font/google';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-const MainHeader = () => {
+const MainHeader = (props: { toggleSidebar: any }) => {
   const t = useTranslations();
 
   return (
@@ -75,7 +75,7 @@ const MainHeader = () => {
         </div>
       </div>
 
-      <button className="md:hidden" type="button">
+      <button className="md:hidden" type="button" onClick={() => props.toggleSidebar(true)}>
         <div className="w-12 bg-white py-[2px]" />
         <div className="my-2 w-12 bg-white py-[2px]" />
         <div className="w-12 bg-white py-[2px]" />
