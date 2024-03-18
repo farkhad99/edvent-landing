@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const Sidebar = (props: { closeSidebar: () => void; isOpen: boolean }) => {
   const t = useTranslations();
+  const currentPath = usePathname();
 
   const close = () => {
     props.closeSidebar();
@@ -46,23 +48,27 @@ const Sidebar = (props: { closeSidebar: () => void; isOpen: boolean }) => {
 
       <div className="items-center justify-between md:flex">
         <div className="flex flex-col justify-end gap-4">
-          <button
-            type="button"
-            className="w-full border-2 border-black bg-black p-2 px-8 uppercase text-white"
-          >
-            {t('Cta.buy_ticket')}
-          </button>
-          <button
-            type="button"
-            className="w-full border-2 border-black p-2 px-6 uppercase"
-          >
-            {t('Cta.become_partner')}
-          </button>
+          <Link href={`${currentPath}?ticketModal=true`}>
+            <button
+              type="button"
+              className="w-full border-2 border-black bg-black p-2 px-8 uppercase text-white"
+            >
+              {t('Cta.buy_ticket')}
+            </button>
+          </Link>
+          <Link href={`${currentPath}?partnerModal=true`}>
+            <button
+              type="button"
+              className="w-full border-2 border-black p-2 px-6 uppercase"
+            >
+              {t('Cta.become_partner')}
+            </button>
+          </Link>
         </div>
       </div>
 
       <div className="flex">
-        <Link href="instagram.com">
+        <Link href="https://www.instagram.com/edvent.uz">
           <button className="mx-3 rounded-full p-2" type="button">
             <Image
               alt="insta-link"
@@ -72,7 +78,7 @@ const Sidebar = (props: { closeSidebar: () => void; isOpen: boolean }) => {
             />
           </button>
         </Link>
-        <Link href="instagram.com">
+        <Link href="https://t.me/edventcau">
           <button className="mr-6 rounded-full bg-white p-2" type="button">
             <Image
               alt="tg-link"

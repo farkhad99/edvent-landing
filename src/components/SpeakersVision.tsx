@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import bannerimg from '../../public/assets/images/about-banner.png';
@@ -41,7 +42,7 @@ const SpeakersVision = () => {
         <div className="mx-auto my-6 mt-10 grid max-w-[990px] flex-wrap gap-8 px-10 md:grid-cols-5 md:justify-between">
           <div className="flex gap-3">
             <div
-              className="flex-end flex h-[470px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:max-w-[188px]"
+              className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
               style={{
                 background: `url(${twoDay.src})`,
                 backgroundRepeat: 'no-repeat',
@@ -57,7 +58,7 @@ const SpeakersVision = () => {
 
           <div className="flex gap-3">
             <div
-              className="flex-end flex h-[470px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:max-w-[188px]"
+              className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
               style={{
                 background: `url(${deepDive.src})`,
                 backgroundRepeat: 'no-repeat',
@@ -73,7 +74,7 @@ const SpeakersVision = () => {
 
           <div className="flex gap-3">
             <div
-              className="flex-end flex h-[470px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:max-w-[188px]"
+              className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
               style={{
                 background: `url(${roundTables.src})`,
                 backgroundRepeat: 'no-repeat',
@@ -89,7 +90,7 @@ const SpeakersVision = () => {
 
           <div className="flex gap-3">
             <div
-              className="flex-end flex h-[470px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:max-w-[188px]"
+              className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
               style={{
                 background: `url(${securityCorner.src})`,
                 backgroundRepeat: 'no-repeat',
@@ -105,7 +106,7 @@ const SpeakersVision = () => {
 
           <div className="flex gap-3">
             <div
-              className="flex-end flex h-[470px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:max-w-[188px]"
+              className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
               style={{ background: `url(${galaDinner.src})` }}
             >
               <p className="mb-4 border-b-2 border-white pb-4 text-left text-16 font-medium uppercase">
@@ -116,12 +117,14 @@ const SpeakersVision = () => {
         </div>
 
         <div className="my-6 flex justify-center pt-4">
-          <button
-            type="button"
-            className="mr-3 border-2 border-white bg-white p-2 px-10 uppercase text-black"
-          >
-            {t('Cta.buy_ticket')}
-          </button>
+          <Link href="/?ticketModal=true">
+            <button
+              type="button"
+              className="mr-3 border-2 border-white bg-white p-2 px-10 uppercase text-black"
+            >
+              {t('Cta.buy_ticket')}
+            </button>
+          </Link>
           <button
             type="button"
             className="border-2 border-white p-2 px-12 uppercase text-white"

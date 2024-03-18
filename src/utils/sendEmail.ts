@@ -1,6 +1,4 @@
-import type { FormData } from '@/components/program/ProgramForm';
-
-export function sendEmail(data: FormData) {
+export function sendEmail(data: any) {
   const apiEndpoint = '/api/email';
 
   return fetch(apiEndpoint, {
@@ -8,8 +6,8 @@ export function sendEmail(data: FormData) {
     body: JSON.stringify(data)
   })
     .then((res) => res.json())
-    .then((response) => {
-      alert(response.messages);
+    .then(() => {
+      alert('Email is sent! Thank you!');
     })
     .catch((err) => {
       alert(err);

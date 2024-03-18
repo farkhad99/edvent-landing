@@ -53,7 +53,9 @@ const MainFooter = () => {
       <div className="text-left text-base">
         <p className="pb-2">{t('Footer.contacts')}</p>
         <p>+998(50)724-01-64</p>
-        <p>info@edvent.uz</p>
+        <a href="mailto:edvent@centralasian.uz">
+          <p>edvent@centralasian.uz</p>
+        </a>
       </div>
 
       <div className="mt-6 flex flex-col gap-y-2 md:mt-0">
@@ -70,7 +72,7 @@ const MainFooter = () => {
               />
             </button>
           </Link>
-          <Link href="instagram.com">
+          <Link href="https://www.instagram.com/edvent.uz">
             <button type="button" className="mx-3 rounded-full bg-white p-2">
               <Image
                 alt="insta-link"
@@ -80,7 +82,7 @@ const MainFooter = () => {
               />
             </button>
           </Link>
-          <Link href="instagram.com">
+          <Link href="https://t.me/edventcau">
             <button type="button" className="rounded-full bg-white p-2">
               <Image
                 alt="tg-link"

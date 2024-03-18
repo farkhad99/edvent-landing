@@ -38,6 +38,34 @@ const Partners = () => {
               height={224}
             />
           </div>
+
+          <div className="text-center">
+            <Image
+              src="/assets/images/koc-logo.png"
+              alt="Sentry"
+              width={240}
+              height={224}
+            />
+          </div>
+        </div>
+        <div className="flex gap-4 pt-4">
+          <div className="text-center">
+            <Image
+              src="/assets/images/artel-logo.png"
+              alt="Sentry"
+              width={180}
+              height={124}
+            />
+          </div>
+
+          <div className="text-center">
+            <Image
+              src="/assets/images/tushlar.png"
+              alt="Sentry"
+              width={180}
+              height={224}
+            />
+          </div>
         </div>
       </div>
     </div>

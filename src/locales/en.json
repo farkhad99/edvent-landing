@@ -22,7 +22,7 @@
   },
   "HeaderBanner": {
     "title": "Meet the legend",
-    "guest": "Saymiko Guseynov"
+    "guest": "Jo Malone"
   },
   "Goals": {
     "events": "Events",
@@ -32,21 +32,31 @@
   },
   "About": {
     "title": "What is Edvent",
-    "description": "The Women's Empowerment Convention is the ultimate destination for the world's successful women leaders, setting new standards and breaking barriers. More than just an event, it is a bold, vibrant community where global women leaders unite to challenge norms, celebrate achievements, and inspire greatness. We create a dynamic space of connection, learning, and empowerment, emphasizing that if you are a successful woman, this is where you belong. Join us to showcase your brilliance and drive transformative change, making the WE Convention the ultimate platform for women worldwide."
+    "description": "At EDVENT, we don't just organize events; we create unforgettable experiences that inspire, entertain, and enlighten. Located in the heart of Central Asia, in the picturesque Uzbekistan Expo Centre, we pride ourselves on being a bridge that connects the world's most dynamic speakers and artists with the rich cultural heritage of Uzbekistan. Our mission is to ignite passion, foster innovation, and create a space where creativity knows no bounds. Join us on this exciting journey to explore new ideas, celebrate the diversity of talents, and build unforgettable memories. With EDVENT, every event is not just an occasion to meet; it's a direction where dreams soar, and every moment is a story waiting to be told."
   },
   "Speakers": {
     "title": "Meet our 2024 speakers",
     "description": "We're constantly adding new, exciting speakers to our lineup. Prepare to be inspired, motivated, and amazed as we bring you top-notch experts, thought leaders, and women role models. Stay tuned for updates on our growing list of speakers.",
-    "musk_name": "Maye Musk",
-    "musk": "international author, Doctor of Dietetics, supermodel, and speaker",
-    "malone_name": "Jo Malone",
-    "malone": "the legendary founder of the namesake fragrance brand",
-    "johnson_name": "Boris Johnson",
-    "johnson": "former Mayor of London and ex-Prime Minister of the United Kingdom",
-    "branson": "founder of the Virgin Group",
-    "branson_name": "Richard Branson",
-    "pence": "the distinguished former Vice President of the United States",
-    "pence_name": "Mike Pence",
+    "meryem_name": "Meryem Uzerli",
+    "meryem": "Actress known for her role in the Turkish TV series “Muhteşem Yüzyıl",
+    "lola_name": "Lola Yuldasheva",
+    "lola": "Uzbek singer and actress, popular in Central Asia’s music scene.",
+    "iroda_name": "Iroda Utarova",
+    "iroda": "Inspirational blogger",
+    "husnora_name": "Husnora Shadieva",
+    "husnora": " Famous Uzbek blogger, singer",
+    "selim_name": "Selim Bassoul",
+    "selim": "Business executive, known for his leadership at The Middleby Corporation",
+    "ed_name": "Ed Mylett",
+    "ed": "Entrepreneur, author, and speaker, known for his self-help and motivational work",
+    "irina_name": "Irina Shayk",
+    "irina": "Russian supermodel and actress, recognized globally in fashion industry",
+    "jordan_name": "Jordan Peterson",
+    "jordan": "Canadian clinical psychologist, cultural critic, and author of “12 Rules for Life”",
+    "jakhongir_name": "Jahongir Artikhodjaev",
+    "jakhongir": "Businessman and politician",
+    "jo_name": "Jo Malone",
+    "jo": "the legendary founder of the namesake fragrance brand",
     "small_description": "The biggest mistake in life is limiting yourself to small goals. Encouraging to set big goals, overcoming barriers to success and reaching your full career potential.",
     "experience": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent.",
     "two_day": "A TWO-DAY STAGE PROGRAM",
@@ -58,7 +68,7 @@
   "Venues": {
     "title": "Venues",
     "uni": "CAEx Uzbekistan",
-    "description": "The new iconic landmark of Dubai, Atlantis The Royal is an ultra-luxury destination that has been designed to challenge the boundaries of imagination. For 2 days, be taken on an incredible journey where everything is possible and you can achieve it all. This is the place to realize your Big Goals and Bold Choices."
+    "description": "CAEx— это современный выставочный комплекс, применяемый для организации и проведения выставок, конференций и других мероприятий в регионе Центральной Азии."
   },
   "Tickets": {
     "title": "Choose you ticket",
@@ -154,16 +164,26 @@
   "Trailer": {
     "title": "WATCH THE edvent 2023 TRAILER",
     "subtitle": "MEET THE ESTEEMED COMPANIES THAT JOINED US AT THE edvent 2024",
-    "description": "We celebrate women's leadership and empower women with the support of these organizations. Partner with WE Convention. Join us to empower women worldwide in April 2024."
+    "description": "Partner with EDVENT. Join us to empower women worldwide in April 2024."
   },
   "Partners": {
-    "title": "Partners"
+    "title": "Partners",
+    "first_name": "First name*",
+    "last_name": "Last name*",
+    "company_name": "Company name",
+    "company_sector": "Company sector",
+    "leave_request": "Request a ticket",
+    "email": "Email*",
+    "phone": "Phone number*",
+    "website": "Website",
+    "message": "Message",
+    "disclaimer": "By clicking the button, you agree that EDVENT will use your details to send you the requested information and to stay in touch about events. We encourage you to read our privacy policy."
   },
   "Opportunity": {
     "title": "VOLUNTEER OPPORTUNITIES AT THE edvent 2024",
-    "description": "As the WE Convention continues to grow and inspire, we are excited to announce that this year we are opening our doors to volunteer support. This is a unique opportunity to become an integral part of one of the most significant global women's leadership events.",
+    "description": "As the EDVENT continues to grow and inspire, we are excited to announce that this year we are opening our doors to volunteer support. This is a unique opportunity to become an integral part of one of the most significant global women's leadership events.",
     "balls": "We are looking for passionate, dedicated individuals who are eager to contribute to the success of the convention.",
-    "instructions": "TO APPLY, PLEASE SEND YOUR RESUME ALONG WITH A BRIEF NOTE EXPLAINING WHY YOU WOULD LIKE TO VOLUNTEER AT THE WE CONVENTION TO OUR “JOIN US“ EMAIL AT VOLUNTEERS@WECONVENTION.COM. SHARE WITH US ANY SPECIFIC SKILLS OR EXPERIENCES THAT YOU BELIEVE WOULD CONTRIBUTE TO YOUR ROLE AS A VOLUNTEER.",
+    "instructions": "TO APPLY, PLEASE SEND YOUR RESUME ALONG WITH A BRIEF NOTE EXPLAINING WHY YOU WOULD LIKE TO VOLUNTEER AT THE WE CONVENTION TO OUR 'JOIN US' EMAIL AT edvent@centralasian.uz . SHARE WITH US ANY SPECIFIC SKILLS OR EXPERIENCES THAT YOU BELIEVE WOULD CONTRIBUTE TO YOUR ROLE AS A VOLUNTEER.",
     "how_to_apply": "HOW TO APPLY",
     "greet": "We look forward to receiving your application and potentially welcoming you to our dynamic volunteer team!"
   },

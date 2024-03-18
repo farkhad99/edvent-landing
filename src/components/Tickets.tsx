@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import bannerimg from '../../public/assets/images/tickets-banner.png';
@@ -186,13 +187,14 @@ const Tickets = () => {
           </div>
         </div>
       </div>
-
-      <button
-        type="button"
-        className="border-2 border-white bg-white p-2 px-16 uppercase text-black"
-      >
-        {t('Cta.buy_ticket')}
-      </button>
+      <Link href="/?ticketModal=true">
+        <button
+          type="button"
+          className="border-2 border-white bg-white p-2 px-16 uppercase text-black"
+        >
+          {t('Cta.buy_ticket')}
+        </button>
+      </Link>
     </div>
   );
 };

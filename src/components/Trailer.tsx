@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import bannerimg from '../../public/assets/images/trailer-poster.png';
@@ -24,12 +25,14 @@ const Trailer = () => {
       <p className="mx-auto my-6 max-w-[700px] px-4">
         {t('Trailer.description')}
       </p>
-      <button
-        type="button"
-        className="mx-auto mt-4 border-2 border-black bg-black p-2 px-16 uppercase text-white"
-      >
-        {t('Cta.become_partner')}
-      </button>
+      <Link href="/?ticketModal=true">
+        <button
+          type="button"
+          className="mx-auto mt-4 border-2 border-black bg-black p-2 px-16 uppercase text-white"
+        >
+          {t('Cta.become_partner')}
+        </button>
+      </Link>
     </div>
   );
 };

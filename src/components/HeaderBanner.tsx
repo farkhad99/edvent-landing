@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/_DSC0011.jpg';
+import bannerimg from '../../public/assets/images/header-banner.png';
 
 const HeaderBanner = () => {
   const t = useTranslations();
@@ -30,21 +31,25 @@ const HeaderBanner = () => {
           <div>
             <div className="mb-2 text-center text-lg font-bold uppercase">
               {t('Header.date')}{' '}
-              <span style={{ color: '#CAB694' }}>CAEx UZBEKISTAN</span>
+              <span style={{ color: '#CAB694' }}>UZBEKISTAN</span>
             </div>
-            <div className="mb-6 flex flex-wrap justify-end gap-3 px-2">
-              <button
-                type="button"
-                className="grow border-2 border-white bg-white p-2 px-8 uppercase text-black"
-              >
-                {t('Cta.buy_ticket')}
-              </button>
-              <button
-                type="button"
-                className="grow border-2 border-white p-2 px-6 uppercase"
-              >
-                {t('Cta.become_partner')}
-              </button>
+            <div className="mb-6 flex flex-wrap gap-3 px-2 pb-12">
+              <Link href="/?ticketModal=true" className="w-full sm:w-auto">
+                <button
+                  type="button"
+                  className="w-full grow border-2 border-white bg-white p-2 px-8 uppercase text-black"
+                >
+                  {t('Cta.buy_ticket')}
+                </button>
+              </Link>
+              <Link href="/?partnerModal=true" className="w-full sm:w-auto">
+                <button
+                  type="button"
+                  className="w-full grow border-2 border-white p-2 px-6 uppercase"
+                >
+                  {t('Cta.become_partner')}
+                </button>
+              </Link>
             </div>
           </div>
         </div>

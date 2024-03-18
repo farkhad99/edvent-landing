@@ -66,12 +66,17 @@ const Highlights = () => {
           </div>
         </div>
 
-        <button
-          type="button"
-          className="mt-4 border-2 border-black bg-black p-2 px-16 uppercase text-white"
+        <a
+          href="https://www.instagram.com/edvent.uz?igsh=OTlpcDUydGt6NW1k"
+          target="_blank"
         >
-          {t('Cta.photos')}
-        </button>
+          <button
+            type="button"
+            className="mt-4 border-2 border-black bg-black p-2 px-16 uppercase text-white"
+          >
+            {t('Cta.photos')}
+          </button>
+        </a>
       </div>
     </div>
   );
