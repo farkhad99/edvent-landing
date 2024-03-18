@@ -1,3 +1,26 @@
+# 1.0.0 (2024-03-18)
+
+
+### Bug Fixes
+
+* add crowdin project ([a8f68fb](https://github.com/farkhad99/edvent-landing/commit/a8f68fbfc4532a07a2ccda917ec5ccded5c5cfe9))
+* content upload ([8c07f41](https://github.com/farkhad99/edvent-landing/commit/8c07f41c1f89cc08085614741ac415413c6d335d))
+* crowdin tokens ([80b5ac1](https://github.com/farkhad99/edvent-landing/commit/80b5ac1e28fdcb545d5992c84859d468aaee1763))
+* header banner content ([b0975e5](https://github.com/farkhad99/edvent-landing/commit/b0975e5a4e157803cbb7b311045b298ba992f974))
+* huge diffs ([b483e26](https://github.com/farkhad99/edvent-landing/commit/b483e267af1106de2d064acbe6114aa3c0789714))
+* layout ([257e369](https://github.com/farkhad99/edvent-landing/commit/257e36946e70289ed4520e969f8d039703987522))
+* **readme:** remove text ([949ee39](https://github.com/farkhad99/edvent-landing/commit/949ee39011df9f9fb84ea95e554c27dc9116524b))
+* ready-to-build ([c94c755](https://github.com/farkhad99/edvent-landing/commit/c94c75581bf3581b6bec80ea1649dd662c905e58))
+* **root:** upload new content ([433a4f7](https://github.com/farkhad99/edvent-landing/commit/433a4f7e69e3a4748f621d8f367319f831665bf7))
+* ru texts ([7bbd641](https://github.com/farkhad99/edvent-landing/commit/7bbd641450f2f1fc45b19dac52261cf39c9eccbe))
+* small corrections ([001e085](https://github.com/farkhad99/edvent-landing/commit/001e08574dce9a4348e0b3f64357c6eda20259c6))
+
+
+### Features
+
+* init project template ([1c775db](https://github.com/farkhad99/edvent-landing/commit/1c775dbe5951457884e0ba04b8bc1ab159243093))
+* rearrange to landing mockup ([ef94769](https://github.com/farkhad99/edvent-landing/commit/ef94769d0b196e8e8de243cd8d7159e84a60c2f4))
+
 # [3.43.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.42.0...v3.43.0) (2024-03-07)
 
 
