@@ -13,8 +13,8 @@ const BaseTemplate = (props: { children: React.ReactNode }) => {
   const [isSidebarOpen, toggleSidebar] = useState(false);
   const searchParams = useSearchParams();
 
-  const isPartnerModalOpen = !!searchParams.get('partnerModal');
-  const isTicketModalOpen = !!searchParams.get('ticketModal');
+  const isPartnerModalOpen = !!searchParams?.get('partnerModal');
+  const isTicketModalOpen = !!searchParams?.get('ticketModal');
 
   const closeSidebar = () => {
     toggleSidebar(false);

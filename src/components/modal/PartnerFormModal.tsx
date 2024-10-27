@@ -38,7 +38,7 @@ const PartnerFormModal = (props: { isOpen: boolean }) => {
     setLoading(true);
     await sendEmail(data);
     setLoading(false);
-    currRouter.push(currPathName);
+    currRouter.push(currPathName as string);
     reset();
   };
 
@@ -54,7 +54,7 @@ const PartnerFormModal = (props: { isOpen: boolean }) => {
         }
       }}
       open={props.isOpen}
-      onClose={() => currRouter.push(currPathName)}
+      onClose={() => currRouter.push(currPathName as string)}
     >
       <DialogContent>
         <h1 className="pb-4 text-center text-2xl font-medium uppercase text-gray-100 md:text-[37px]">

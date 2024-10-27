@@ -18,16 +18,20 @@
     "tickets": "Tickets",
     "program": "Program",
     "partners": "Partners",
-    "date": "March 25, CAEx"
+    "date": "Something123",
+    "country": "Uzbekistan2"
   },
   "HeaderBanner": {
-    "title": "Meet the legend",
-    "guest": "Jo Malone"
+    "title": "Meet the legend3",
+    "guest": "Jo Malone2"
   },
   "Goals": {
     "events": "Events",
+    "events_count": "100",
     "sell_tickets": "Sell Tickets",
+    "sell_tickets_count": "100K",
     "gather_audience": "Gathered Audience",
+    "gather_audience_count": "10M",
     "description": "MAIN STAGE, DEEP-DIVE WORKSHOPS, ROUNDTABLES, MENTORING ZONE, SERENITY CORNER, F&B, GALA DINNER"
   },
   "About": {
@@ -36,6 +40,7 @@
   },
   "Speakers": {
     "title": "Meet our 2024 speakers",
+    "title_vision": "Meet our 2024 speakers",
     "description": "We're constantly adding new, exciting speakers to our lineup. Prepare to be inspired, motivated, and amazed as we bring you top-notch experts, thought leaders, and women role models. Stay tuned for updates on our growing list of speakers.",
     "meryem_name": "Meryem Uzerli",
     "meryem": "Actress known for her role in the Turkish TV series “Muhteşem Yüzyıl",
@@ -57,9 +62,9 @@
     "jakhongir": "Businessman and politician",
     "jo_name": "Jo Malone",
     "jo": "the legendary founder of the namesake fragrance brand",
-    "small_description": "The biggest mistake in life is limiting yourself to small goals. Encouraging to set big goals, overcoming barriers to success and reaching your full career potential.",
+    "small_description": "The biggest mistake in life is limiting yourself to small goals.Encouraging to set big goals, overcoming barriers to success and reaching your full career potential.",
     "experience": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent.",
-    "two_day": "A TWO-DAY STAGE PROGRAM",
+    "two_day": "2A TWO-DAY STAGE PROGRAM",
     "deep_dive": "A TWO-DAY STAGE PROGRAM",
     "roundtables": "Roundtables",
     "security": "Security corner",
