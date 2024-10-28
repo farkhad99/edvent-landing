@@ -5,7 +5,7 @@ import { AppConfig } from './utils/AppConfig';
 
 export default createMiddleware({
   locales: AppConfig.locales,
-  localePrefix: AppConfig.localePrefix,
+  localePrefix: AppConfig.localePrefix as any,
   defaultLocale: AppConfig.defaultLocale
 });
 
