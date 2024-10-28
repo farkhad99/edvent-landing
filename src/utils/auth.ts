@@ -4,8 +4,8 @@ import jwt from 'jsonwebtoken';
 // You would normally store these in environment variables
 const JWT_SECRET = 'your-super-secret-key-2024';
 const ADMIN_CREDENTIALS = {
-  login: 'admin',
-  password: 'admin'
+  login: process.env.ADMIN_LOGIN,
+  password: process.env.ADMIN_PASSWORD
 };
 
 export const generateToken = () => {
