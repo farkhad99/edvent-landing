@@ -1,15 +1,5 @@
 import { useTranslations } from 'next-intl';
 
-import edimg from '../../public/assets/images/speakers/ed.jpeg';
-import husnoraimg from '../../public/assets/images/speakers/husnora.jpeg';
-import irinaimg from '../../public/assets/images/speakers/irina.jpeg';
-import irodaimg from '../../public/assets/images/speakers/iroda.jpeg';
-import jakhongirimg from '../../public/assets/images/speakers/jakhongir.jpeg';
-import joimg from '../../public/assets/images/speakers/jo.png';
-import jordanimg from '../../public/assets/images/speakers/jordan.jpeg';
-import lolaimg from '../../public/assets/images/speakers/lola.jpeg';
-import meryemimg from '../../public/assets/images/speakers/meryem.jpeg';
-import selimimg from '../../public/assets/images/speakers/selim.jpeg';
 import EditWrapper from './modal/EditWrapper';
 
 const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
@@ -48,7 +38,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${meryemimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/meryem.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.meryem_name')}
@@ -69,7 +61,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${lolaimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/lola.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.lola_name')}
@@ -90,7 +84,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${irodaimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/iroda.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.iroda_name')}
@@ -111,7 +107,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${husnoraimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/husnora.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.husnora_name')}
@@ -132,7 +130,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${joimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/jo.png'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.jo_name')}
@@ -153,7 +153,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${selimimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/selim.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.selim_name')}
@@ -174,7 +176,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${edimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/ed.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.ed_name')}
@@ -195,7 +199,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${irinaimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/irina.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.irina_name')}
@@ -216,7 +222,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${jordanimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/jordan.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.jordan_name')}
@@ -240,7 +248,9 @@ const Speakers = ({ isAdmin }: { isAdmin?: boolean }) => {
           <div className="flex gap-3">
             <div
               className="flex-end flex h-[300px] w-[225px] flex-col justify-end rounded-md bg-cover bg-center p-3 text-white"
-              style={{ backgroundImage: `url(${jakhongirimg.src})` }}
+              style={{
+                backgroundImage: `url(${'/assets/images/speakers/jakhongir.jpeg'})`
+              }}
             >
               <p className="text-16 font-medium uppercase">
                 {t('Speakers.jakhongir_name')}

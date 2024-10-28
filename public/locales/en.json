@@ -1,0 +1,245 @@
+{
+  "BaseTemplate": {
+    "description": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent.",
+    "made_with": "Made with Love"
+  },
+  "Index": {
+    "meta_title": "Jo Malone",
+    "meta_description": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent."
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  },
+  "Header": {
+    "speakers": "Speakers",
+    "venues": "Venues",
+    "tickets": "Tickets",
+    "program": "Program",
+    "partners": "Partners",
+    "date": "Something",
+    "country": "Uzbekistan"
+  },
+  "HeaderBanner": {
+    "title": "Meet the legend",
+    "guest": "Jo Malone"
+  },
+  "Goals": {
+    "events": "Events",
+    "events_count": "100",
+    "sell_tickets": "Sell Tickets",
+    "sell_tickets_count": "100M",
+    "gather_audience": "Gathered Audience",
+    "gather_audience_count": "100M",
+    "description": "MAIN STAGE, DEEP-DIVE WORKSHOPS, ROUNDTABLES, MENTORING ZONE, SERENITY CORNER, F&B, GALA DINNER"
+  },
+  "About": {
+    "title": "What is Edvent",
+    "description": "At EDVENT, we don't just organize events; we create unforgettable experiences that inspire, entertain, and enlighten. Located in the heart of Central Asia, in the picturesque Uzbekistan Expo Centre, we pride ourselves on being a bridge that connects the world's most dynamic speakers and artists with the rich cultural heritage of Uzbekistan. Our mission is to ignite passion, foster innovation, and create a space where creativity knows no bounds. Join us on this exciting journey to explore new ideas, celebrate the diversity of talents, and build unforgettable memories. With EDVENT, every event is not just an occasion to meet; it's a direction where dreams soar, and every moment is a story waiting to be told."
+  },
+  "Speakers": {
+    "title": "Meet our 2024 speakers",
+    "title_vision": "Meet our 2024 speakers",
+    "description": "We're constantly adding new, exciting speakers to our lineup. Prepare to be inspired, motivated, and amazed as we bring you top-notch experts, thought leaders, and women role models. Stay tuned for updates on our growing list of speakers.",
+    "meryem_name": "Meryem Uzerli",
+    "meryem": "Actress known for her role in the Turkish TV series “Muhteşem Yüzyıl",
+    "lola_name": "Lola Yuldasheva",
+    "lola": "Uzbek singer and actress, popular in Central Asia’s music scene.",
+    "iroda_name": "Iroda Utarova",
+    "iroda": "Inspirational blogger",
+    "husnora_name": "Husnora Shadieva",
+    "husnora": " Famous Uzbek blogger, singer",
+    "selim_name": "Selim Bassoul",
+    "selim": "Business executive, known for his leadership at The Middleby Corporation",
+    "ed_name": "Ed Mylett",
+    "ed": "Entrepreneur, author, and speaker, known for his self-help and motivational work",
+    "irina_name": "Irina Shayk",
+    "irina": "Russian supermodel and actress, recognized globally in fashion industry",
+    "jordan_name": "Jordan Peterson",
+    "jordan": "Canadian clinical psychologist, cultural critic, and author of “12 Rules for Life”",
+    "jakhongir_name": "Jahongir Artikhodjaev",
+    "jakhongir": "Businessman and politician",
+    "jo_name": "Jo Malone",
+    "jo": "the legendary founder of the namesake fragrance brand",
+    "small_description": "The biggest mistake in life is limiting yourself to small goals.Encouraging to set big goals, overcoming barriers to success and reaching your full career potential.",
+    "experience": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent.",
+    "two_day": "2A TWO-DAY STAGE PROGRAM",
+    "deep_dive": "A TWO-DAY STAGE PROGRAM",
+    "roundtables": "Roundtables",
+    "security": "Security corner",
+    "gala_dinner": "Gala dinner"
+  },
+  "Venues": {
+    "title": "Venues",
+    "uni": "CAEx Uzbekistan",
+    "description": "CAEx— это современный выставочный комплекс, применяемый для организации и проведения выставок, конференций и других мероприятий в регионе Центральной Азии."
+  },
+  "Tickets": {
+    "title": "Choose you ticket",
+    "standard": {
+      "title": "standard",
+      "level": "B&C level",
+      "services": {
+        "access": "Access to the Conference hall (Standard rows free seating)",
+        "limit": "Unlimited food access in the shop",
+        "photo": "Access to the Photo zone",
+        "network": "Access to the Networking zone"
+      }
+    },
+    "premium": {
+      "title": "premium",
+      "level": "A level",
+      "services": {
+        "access": "Access to the Conference hall (Premium rows free seating)",
+        "limit": "Unlimited food access in the shop",
+        "photo": "Access to the Photo zone",
+        "network": "Access to the Networking zone",
+        "coupon": "Coupon for 15% discount for the next  event"
+      }
+    },
+    "vip": {
+      "title": "VIP",
+      "level": "VIP level",
+      "services": {
+        "access": "Access to the Conference hall (VIP rows free seating)",
+        "special": "Special registration desk",
+        "network": "VIP Networking Zone",
+        "lounge": "VIP Lounge Zone",
+        "buffet": "Flying Buffet",
+        "coupon": "Coupon for 20% discount for the next  event",
+        "separate": "Separate Private Locker Room",
+        "translation": "Synchronized Translation",
+        "headset": "Headset",
+        "photo": "Access to the Photo zone",
+        "vip_special": "Special Bracelets for VIP Accesses"
+      }
+    },
+    "sip": {
+      "title": "SIP",
+      "level": "SIP level",
+      "services": {
+        "access": "Access to the Conference hall (Leather Armchair FIRST rows free seating)",
+        "special": "Special registration desk",
+        "network": "VIP Networking Zone",
+        "lounge": "VIP Lounge Zone",
+        "buffet": "Flying Buffet",
+        "coupon": "Coupon for 25% discount for the next  event",
+        "separate": "Separate Private Locker Room",
+        "translation": "Synchronized Translation",
+        "headset": "Headset",
+        "photo": "Access to the Photo zone",
+        "sip_special": "Special Bracelets for SIP Accesses",
+        "assistance": "Privileged assistance from the Personnel"
+      }
+    }
+  },
+  "Why": {
+    "title": "Why edvent",
+    "descriptions": {
+      "push": {
+        "title": "Push your career",
+        "description": "Learn from the personal journeys of recognized role models, gain practical advice, receive expert support to advance your career and professional growth to attain success."
+      },
+      "empower": {
+        "title": "GET EMPOWERED",
+        "description": "Join the most unique meeting of women and men who empower women from around the world. Unlock your potential and be inspired to achieve your goals!"
+      },
+      "build": {
+        "title": "BUILD NEW CONNECTIONS",
+        "description": "Connect with a diverse community that wants to support you and find those who can help you ignite your brightest future."
+      }
+    }
+  },
+  "Feedback": {
+    "title": "WHAT PEOPLE SAY ABOUT EDVENT",
+    "feedback_text": "“One of the best and so professional Events, thank you”",
+    "name": "Zhanna Khan"
+  },
+  "Highlights": {
+    "title": "Edvent 2023 Highlights",
+    "description": "On March 7-8, 2023, the first WE Convention ignited change by celebrating International Women's Day at the Dubai Opera and Armani Hotel. Featuring influential speakers like Maye Musk and Natalia Vodianova, the kick-off event encouraged engaging discussions across multiple stages and sessions. This significant gathering laid a solid foundation for future WE Conventions, highlighting the global impact and importance of women's empowerment in business and beyond.",
+    "attendees": "attendees",
+    "countries": "countries",
+    "speakers": "speakers",
+    "stages": "stages",
+    "sessions": "sessions",
+    "media": "media coverage"
+  },
+  "Trailer": {
+    "title": "WATCH THE edvent 2023 TRAILER",
+    "subtitle": "MEET THE ESTEEMED COMPANIES THAT JOINED US AT THE edvent 2024",
+    "description": "Partner with EDVENT. Join us to empower women worldwide in April 2024."
+  },
+  "Partners": {
+    "title": "Partners",
+    "first_name": "First name*",
+    "last_name": "Last name*",
+    "company_name": "Company name",
+    "company_sector": "Company sector",
+    "leave_request": "Request a ticket",
+    "email": "Email*",
+    "phone": "Phone number*",
+    "website": "Website",
+    "message": "Message",
+    "disclaimer": "By clicking the button, you agree that EDVENT will use your details to send you the requested information and to stay in touch about events. We encourage you to read our privacy policy."
+  },
+  "Opportunity": {
+    "title": "VOLUNTEER OPPORTUNITIES AT THE edvent 2024",
+    "description": "As the EDVENT continues to grow and inspire, we are excited to announce that this year we are opening our doors to volunteer support. This is a unique opportunity to become an integral part of one of the most significant global women's leadership events.",
+    "balls": "We are looking for passionate, dedicated individuals who are eager to contribute to the success of the convention.",
+    "instructions": "TO APPLY, PLEASE SEND YOUR RESUME ALONG WITH A BRIEF NOTE EXPLAINING WHY YOU WOULD LIKE TO VOLUNTEER AT THE WE CONVENTION TO OUR 'JOIN US' EMAIL AT edvent@centralasian.uz . SHARE WITH US ANY SPECIFIC SKILLS OR EXPERIENCES THAT YOU BELIEVE WOULD CONTRIBUTE TO YOUR ROLE AS A VOLUNTEER.",
+    "how_to_apply": "HOW TO APPLY",
+    "greet": "We look forward to receiving your application and potentially welcoming you to our dynamic volunteer team!"
+  },
+  "Cta": {
+    "buy_ticket": "Buy ticket",
+    "become_partner": "Become partner",
+    "program": "Program",
+    "photos": "Photos",
+    "send": "Send",
+    "back_to_main": "Back to main"
+  },
+  "Footer": {
+    "speakers": "Dashboard",
+    "venues": "Venues",
+    "tickets": "Tickets",
+    "program": "Program",
+    "partners": "Dashboard",
+    "contacts": "Contacts",
+    "all_rights": "All Rights Reserved",
+    "address": "264, Milliy bog street Toshkent"
+  },
+  "Program": {
+    "title": "BIG GOALS AND BOLD CHOICES",
+    "meta_title": "BIG GOALS AND BOLD CHOICES",
+    "meta_description": "Welcome to my Program page!",
+    "description": "EXPLORE 11 TRACKS OF PROGRAMMING ACROSS A VARIETY OF FORMATS INCLUDING KEYNOTES, FIRESIDES, PANELS, WORKSHOPS, MORE.",
+    "learning_tracks": "LEARNING TRACKS",
+    "money": "money",
+    "money_info": "The numerous misconceptions about money keep us financially unhealthy, whereas money gives us freedom to live on our terms. Learn how to take control of your finances, invest wisely, achieve your financial goals, and simply how to enjoy money.",
+    "enterpreneurship": "Entrepreneurship",
+    "enterpreneurship_info": "Entrepreneurship may seem scary with all the challenges, fear of failure and the fast-paced environment. Geared towards experienced entrepreneurs and those just starting out, the track covers case studies, success stories, and epic fails that make entrepreneurship so compelling.",
+    "health_info": "Mental health is often undervalued in the pursuit of the career, yet a good mental and overall well-being enhances productivity and leads to rewarding and fulfilling professional and personal outcomes.",
+    "health": "Health & Wellbeing",
+    "creator": "Creator Economy",
+    "creator_info": "Dive into the most intriguing new concepts in creator-made content, as well as innovative distribution methods, monetization strategies and brand partnerships for this pioneering form of media.",
+    "leadership_info": "Dive into effective communication, decision-making, team building, conflict resolution, and other necessary skills for successful leadership. Prominent women leaders will share their experiences, insights, and advice on how to excel as a leader.",
+    "leadership": "leadership",
+    "brand": "Brand Experience",
+    "brand_info": "The programming examines compelling strategies to make a brand a consistent thread at every stage, new ways of connecting with communities, traditional, digital, and experiential marketing practices to engage audiences.",
+    "architecture": "Architecture & Design",
+    "architecture_info": "As the world becomes more urbanized, the need for livable cities becomes ever more pressing. Content will focus on urban planning, sustainable infrastructure, social cohesion, and cultural richness.",
+    "technologies": "Technologies",
+    "technologies_info": "Featuring the latest trends and innovations, that are driving the world’s next wave of change in the tech industry. A special focus is given to how AI and ChatGPT can help to enhance career and personal growth even for those outside of IT.",
+    "fashion": "Fashion & Beauty",
+    "fashion_info": "Join us on a fashion & beauty journey where we explore the full process from research, design and manufacturing to innovations and the future of business, and meet the most remarkable leaders of the industry.",
+    "career": "Career Advancement",
+    "career_info": "Sessions will tackle different approaches to accelerate career growth and advance professionally, investigate insights and strategies to understand what drives you, helps you gain critical experiences, and build skills for the future.",
+    "success": "Success",
+    "success_info": "Some work for peanuts while others attain great success. Explore a pragmatic approach to achieving professional goals and building a lifestyle of sustained accomplishment, without losing yourself or your values along the way.",
+    "form_title": "EDVENT AGENDA IS UNDERWAY. PLEASE LEAVE YOUR EMAIL BELOW AND WE WILL NOTIFY YOU WHEN IT IS PUBLISHED.",
+    "email_example": "example@gmail.com",
+    "email_thanks": "Thank you, we have sent you an email!"
+  }
+}

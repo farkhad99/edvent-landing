@@ -231,7 +231,7 @@ export default function EditForm({ constructors, onClose }: EditFormProps) {
   };
 
   return (
-    <Box sx={{ position: 'relative', p: 2 }}>
+    <Box sx={{ position: 'relative' }}>
       {onClose && (
         <IconButton
           onClick={onClose}
@@ -247,6 +247,15 @@ export default function EditForm({ constructors, onClose }: EditFormProps) {
           <Box key={`${constructor.type}`}>{renderField(constructor)}</Box>
         ))}
       </Box>
+      <Button
+        className="bg-primary w-full text-black hover:text-white"
+        variant="contained"
+        color="success"
+        type="submit"
+        onClick={() => window.location.reload()}
+      >
+        Done
+      </Button>
     </Box>
   );
 }

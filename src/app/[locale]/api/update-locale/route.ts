@@ -86,7 +86,7 @@ export const POST = async (req: Request) => {
 
     const localeFilePath = pathLib.join(
       process.cwd(),
-      'src',
+      'public',
       'locales',
       'en.json'
     );

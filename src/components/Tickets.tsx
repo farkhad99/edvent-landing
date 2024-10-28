@@ -2,14 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/tickets-banner.png';
 import type { TextConstructor } from './modal/EditForm';
 import EditWrapper from './modal/EditWrapper';
 
 const Tickets = ({ isAdmin }: { isAdmin?: boolean }) => {
   const t = useTranslations();
 
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/tickets-banner.png'})`;
 
   const standard = {
     services: ['access', 'limit', 'photo', 'network']

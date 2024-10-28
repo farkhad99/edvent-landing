@@ -1,9 +1,10 @@
 import '@/styles/global.css';
 
+import axios from 'axios';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import { notFound } from 'next/navigation';
-import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
 
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { AppConfig } from '@/utils/AppConfig';
@@ -38,15 +39,15 @@ export const metadata: Metadata = {
   ]
 };
 
-export default function RootLayout(props: {
+export default async function RootLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  // Validate that the incoming `locale` parameter is valid
   if (!AppConfig.locales.includes(props.params.locale)) notFound();
-
-  // Using internationalization in Client Components
-  const messages = useMessages();
+  const response = await axios.get(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/locales/en.json`
+  );
+  const messages = response.data;
 
   return (
     <html

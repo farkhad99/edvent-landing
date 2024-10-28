@@ -1,11 +1,10 @@
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/why-edvent-banner.png';
 import EditWrapper from './modal/EditWrapper';
 
 const WhyBanner = ({ isAdmin }: { isAdmin?: boolean }) => {
   const t = useTranslations();
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/why-edvent-banner.png'})`;
 
   return (
     <EditWrapper

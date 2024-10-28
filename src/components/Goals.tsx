@@ -1,12 +1,11 @@
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/records-banner.png';
 import EditWrapper from './modal/EditWrapper';
 
 const Goals = ({ isAdmin }: { isAdmin?: boolean }) => {
   const t = useTranslations();
 
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/records-banner.png'})`;
 
   return (
     <EditWrapper

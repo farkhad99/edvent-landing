@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/venues-banner.png';
 import EditWrapper from './modal/EditWrapper';
 
 const Venues = ({ isAdmin }: { isAdmin?: boolean }) => {
@@ -28,7 +27,7 @@ const Venues = ({ isAdmin }: { isAdmin?: boolean }) => {
         <div
           className="relative mt-10 h-[500px] w-full bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${bannerimg.src})`
+            backgroundImage: `url(${'/assets/images/venues-banner.png'})`
           }}
         />
       </div>

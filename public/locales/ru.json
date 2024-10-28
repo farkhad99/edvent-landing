@@ -1,0 +1,262 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with"
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+  },
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook..."
+  },
+  "GuestbookForm": {
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Welcome to my portfolio page!",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "portfolio_name": "Portfolio {name}",
+    "log_management_powered_by": "Log management powered by"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hello {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "User Profile"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  },
+  "Header": {
+    "speakers": "Speakers",
+    "venues": "Venues",
+    "tickets": "Tickets",
+    "program": "Program",
+    "partners": "Partners",
+    "date": "March 25, CAEx"
+  },
+  "HeaderBanner": {
+    "title": "Meet the legend",
+    "guest": "Jo Malone"
+  },
+  "Goals": {
+    "events": "Events",
+    "sell_tickets": "Sell Tickets",
+    "gather_audience": "Gathered Audience",
+    "description": "MAIN STAGE, DEEP-DIVE WORKSHOPS, ROUNDTABLES, MENTORING ZONE, SERENITY CORNER, F&B, GALA DINNER"
+  },
+  "About": {
+    "title": "What is Edvent",
+    "description": "The Women's Empowerment Convention is the ultimate destination for the world's successful women leaders, setting new standards and breaking barriers. More than just an event, it is a bold, vibrant community where global women leaders unite to challenge norms, celebrate achievements, and inspire greatness. We create a dynamic space of connection, learning, and empowerment, emphasizing that if you are a successful woman, this is where you belong. Join us to showcase your brilliance and drive transformative change, making the WE Convention the ultimate platform for women worldwide."
+  },
+  "Speakers": {
+    "title": "Meet our 2024 speakers",
+    "description": "We're constantly adding new, exciting speakers to our lineup. Prepare to be inspired, motivated, and amazed as we bring you top-notch experts, thought leaders, and women role models. Stay tuned for updates on our growing list of speakers.",
+    "musk_name": "Maye Musk",
+    "musk": "international author, Doctor of Dietetics, supermodel, and speaker",
+    "malone_name": "Jo Malone",
+    "malone": "the legendary founder of the namesake fragrance brand",
+    "johnson_name": "Boris Johnson",
+    "johnson": "former Mayor of London and ex-Prime Minister of the United Kingdom",
+    "branson": "founder of the Virgin Group",
+    "branson_name": "Richard Branson",
+    "pence": "the distinguished former Vice President of the United States",
+    "pence_name": "Mike Pence",
+    "small_description": "The biggest mistake in life is limiting yourself to small goals.Encouraging to set big goals, overcoming barriers to success and reaching your full career potential.",
+    "experience": "Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at EDVENT 2024 from April 20-21 in Tashkent.",
+    "two_day": "A TWO-DAY STAGE PROGRAM",
+    "deep_dive": "A TWO-DAY STAGE PROGRAM",
+    "roundtables": "Roundtables",
+    "security": "Security corner",
+    "gala_dinner": "Gala dinner"
+  },
+  "Venues": {
+    "title": "Venues",
+    "uni": "CAEx Uzbekistan",
+    "description": "The new iconic landmark of Dubai, Atlantis The Royal is an ultra-luxury destination that has been designed to challenge the boundaries of imagination. For 2 days, be taken on an incredible journey where everything is possible and you can achieve it all. This is the place to realize your Big Goals and Bold Choices."
+  },
+  "Tickets": {
+    "title": "Choose you ticket",
+    "standard": {
+      "title": "standard",
+      "level": "B&C level",
+      "services": {
+        "access": "Access to the Conference hall (Standard rows free seating)",
+        "limit": "Unlimited food access in the shop",
+        "photo": "Access to the Photo zone",
+        "network": "Access to the Networking zone"
+      }
+    },
+    "premium": {
+      "title": "premium",
+      "level": "A level",
+      "services": {
+        "access": "Access to the Conference hall (Premium rows free seating)",
+        "limit": "Unlimited food access in the shop",
+        "photo": "Access to the Photo zone",
+        "network": "Access to the Networking zone",
+        "coupon": "Coupon for 15% discount for the next  event"
+      }
+    },
+    "vip": {
+      "title": "VIP",
+      "level": "VIP level",
+      "services": {
+        "access": "Access to the Conference hall (VIP rows free seating)",
+        "special": "Special registration desk",
+        "network": "VIP Networking Zone",
+        "lounge": "VIP Lounge Zone",
+        "buffet": "Flying Buffet",
+        "coupon": "Coupon for 20% discount for the next  event",
+        "separate": "Separate Private Locker Room",
+        "translation": "Synchronized Translation",
+        "headset": "Headset",
+        "photo": "Access to the Photo zone",
+        "vip_special": "Special Bracelets for VIP Accesses"
+      }
+    },
+    "sip": {
+      "title": "SIP",
+      "level": "SIP level",
+      "services": {
+        "access": "Access to the Conference hall (Leather Armchair FIRST rows free seating)",
+        "special": "Special registration desk",
+        "network": "VIP Networking Zone",
+        "lounge": "VIP Lounge Zone",
+        "buffet": "Flying Buffet",
+        "coupon": "Coupon for 25% discount for the next  event",
+        "separate": "Separate Private Locker Room",
+        "translation": "Synchronized Translation",
+        "headset": "Headset",
+        "photo": "Access to the Photo zone",
+        "sip_special": "Special Bracelets for SIP Accesses",
+        "assistance": "Privileged assistance from the Personnel"
+      }
+    }
+  },
+  "Why": {
+    "title": "Why edvent",
+    "descriptions": {
+      "push": {
+        "title": "Push your career",
+        "description": "Learn from the personal journeys of recognized role models, gain practical advice, receive expert support to advance your career and professional growth to attain success."
+      },
+      "empower": {
+        "title": "GET EMPOWERED",
+        "description": "Join the most unique meeting of women and men who empower women from around the world. Unlock your potential and be inspired to achieve your goals!"
+      },
+      "build": {
+        "title": "BUILD NEW CONNECTIONS",
+        "description": "Connect with a diverse community that wants to support you and find those who can help you ignite your brightest future."
+      }
+    }
+  },
+  "Feedback": {
+    "title": "WHAT PEOPLE SAY ABOUT EDVENT",
+    "feedback_text": "“One of the best and so professional Events, thank you”",
+    "name": "Zhanna Khan"
+  },
+  "Highlights": {
+    "title": "Edvent 2023 Highlights",
+    "description": "On March 7-8, 2023, the first WE Convention ignited change by celebrating International Women's Day at the Dubai Opera and Armani Hotel. Featuring influential speakers like Maye Musk and Natalia Vodianova, the kick-off event encouraged engaging discussions across multiple stages and sessions. This significant gathering laid a solid foundation for future WE Conventions, highlighting the global impact and importance of women's empowerment in business and beyond.",
+    "attendees": "attendees",
+    "countries": "countries",
+    "speakers": "speakers",
+    "stages": "stages",
+    "sessions": "sessions",
+    "media": "media coverage"
+  },
+  "Trailer": {
+    "title": "WATCH THE edvent 2023 TRAILER",
+    "subtitle": "MEET THE ESTEEMED COMPANIES THAT JOINED US AT THE edvent 2024",
+    "description": "We celebrate women's leadership and empower women with the support of these organizations. Partner with WE Convention. Join us to empower women worldwide in April 2024."
+  },
+  "Partners": {
+    "title": "Partners"
+  },
+  "Opportunity": {
+    "title": "VOLUNTEER OPPORTUNITIES AT THE edvent 2024",
+    "description": "As the WE Convention continues to grow and inspire, we are excited to announce that this year we are opening our doors to volunteer support. This is a unique opportunity to become an integral part of one of the most significant global women's leadership events.",
+    "balls": "We are looking for passionate, dedicated individuals who are eager to contribute to the success of the convention.",
+    "instructions": "TO APPLY, PLEASE SEND YOUR RESUME ALONG WITH A BRIEF NOTE EXPLAINING WHY YOU WOULD LIKE TO VOLUNTEER AT THE WE CONVENTION TO OUR “JOIN US“ EMAIL AT VOLUNTEERS@WECONVENTION.COM. SHARE WITH US ANY SPECIFIC SKILLS OR EXPERIENCES THAT YOU BELIEVE WOULD CONTRIBUTE TO YOUR ROLE AS A VOLUNTEER.",
+    "how_to_apply": "HOW TO APPLY",
+    "greet": "We look forward to receiving your application and potentially welcoming you to our dynamic volunteer team!"
+  },
+  "Cta": {
+    "buy_ticket": "Buy ticket",
+    "become_partner": "Become partner",
+    "program": "Program",
+    "photos": "Photos"
+  },
+  "Footer": {
+    "speakers": "Dashboard",
+    "venues": "Venues",
+    "tickets": "Tickets",
+    "program": "Program",
+    "partners": "Dashboard",
+    "contacts": "Contacts",
+    "all_rights": "All Rights Reserved",
+    "address": "264, Milliy bog street Toshkent"
+  },
+  "Program": {
+    "title": "BIG GOALS AND BOLD CHOICES",
+    "description": "EXPLORE 11 TRACKS OF PROGRAMMING ACROSS A VARIETY OF FORMATS INCLUDING KEYNOTES, FIRESIDES, PANELS, WORKSHOPS, MORE.",
+    "learning_tracks": "LEARNING TRACKS",
+    "money": "money",
+    "money_info": "The numerous misconceptions about money keep us financially unhealthy, whereas money gives us freedom to live on our terms. Learn how to take control of your finances, invest wisely, achieve your financial goals, and simply how to enjoy money.",
+    "entrepreneurship": "Entrepreneurship",
+    "entrepreneurship_info": "Entrepreneurship may seem scary with all the challenges, fear of failure and the fast-paced environment. Geared towards experienced entrepreneurs and those just starting out, the track covers case studies, success stories, and epic fails that make entrepreneurship so compelling.",
+    "health_info": "Mental health is often undervalued in the pursuit of the career, yet a good mental and overall well-being enhances productivity and leads to rewarding and fulfilling professional and personal outcomes.",
+    "health": "Health & Wellbeing",
+    "creator": "Creator Economy",
+    "creator_info": "Dive into the most intriguing new concepts in creator-made content, as well as innovative distribution methods, monetization strategies and brand partnerships for this pioneering form of media.",
+    "leadership_info": "Dive into effective communication, decision-making, team building, conflict resolution, and other necessary skills for successful leadership. Prominent women leaders will share their experiences, insights, and advice on how to excel as a leader.",
+    "leadership": "leadership",
+    "brand": "Brand Experience",
+    "brand_info": "The programming examines compelling strategies to make a brand a consistent thread at every stage, new ways of connecting with communities, traditional, digital, and experiential marketing practices to engage audiences.",
+    "architecture": "Architecture & Design",
+    "architecture_info": "As the world becomes more urbanized, the need for livable cities becomes ever more pressing. Content will focus on urban planning, sustainable infrastructure, social cohesion, and cultural richness.",
+    "technologies": "Technologies",
+    "technologies_info": "Featuring the latest trends and innovations, that are driving the world’s next wave of change in the tech industry. A special focus is given to how AI and ChatGPT can help to enhance career and personal growth even for those outside of IT.",
+    "fashion": "Fashion & Beauty",
+    "fashio_info": "Join us on a fashion & beauty journey where we explore the full process from research, design and manufacturing to innovations and the future of business, and meet the most remarkable leaders of the industry.",
+    "career": "Career Advancement",
+    "career_info": "Sessions will tackle different approaches to accelerate career growth and advance professionally, investigate insights and strategies to understand what drives you, helps you gain critical experiences, and build skills for the future.",
+    "success": "Success",
+    "success_info": "Some work for peanuts while others attain great success. Explore a pragmatic approach to achieving professional goals and building a lifestyle of sustained accomplishment, without losing yourself or your values along the way."
+  }
+}

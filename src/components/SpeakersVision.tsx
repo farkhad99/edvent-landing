@@ -1,18 +1,12 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/about-banner.png';
-import deepDive from '../../public/assets/images/deep_dive.png';
-import galaDinner from '../../public/assets/images/gala-dinner.png';
-import roundTables from '../../public/assets/images/roundtables.png';
-import securityCorner from '../../public/assets/images/security-corner.png';
-import twoDay from '../../public/assets/images/two_day.png';
 import EditWrapper from './modal/EditWrapper';
 
 const SpeakersVision = ({ isAdmin }: { isAdmin?: boolean }) => {
   const t = useTranslations();
 
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/about-banner.png'})`;
 
   return (
     <EditWrapper
@@ -61,7 +55,7 @@ const SpeakersVision = ({ isAdmin }: { isAdmin?: boolean }) => {
                 <div
                   className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
                   style={{
-                    background: `url(${twoDay.src})`,
+                    background: `url(${'/assets/images/two_day.png'})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
@@ -85,7 +79,7 @@ const SpeakersVision = ({ isAdmin }: { isAdmin?: boolean }) => {
                 <div
                   className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
                   style={{
-                    background: `url(${deepDive.src})`,
+                    background: `url(${'/assets/images/deep_dive.png'})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
@@ -109,7 +103,7 @@ const SpeakersVision = ({ isAdmin }: { isAdmin?: boolean }) => {
                 <div
                   className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
                   style={{
-                    background: `url(${roundTables.src})`,
+                    background: `url(${'/assets/images/roundtables.png'})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
@@ -136,7 +130,7 @@ const SpeakersVision = ({ isAdmin }: { isAdmin?: boolean }) => {
                 <div
                   className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
                   style={{
-                    background: `url(${securityCorner.src})`,
+                    background: `url(${'/assets/images/security-corner.png'})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
@@ -159,7 +153,9 @@ const SpeakersVision = ({ isAdmin }: { isAdmin?: boolean }) => {
               <div className="flex gap-3">
                 <div
                   className="flex-end flex h-[200px] w-full flex-col justify-end bg-cover bg-no-repeat p-3 text-white md:h-[470px] md:max-w-[188px]"
-                  style={{ background: `url(${galaDinner.src})` }}
+                  style={{
+                    background: `url(${'/assets/images/gala-dinner.png'})`
+                  }}
                 >
                   <p className="mb-4 border-b-2 border-white pb-4 text-left text-16 font-medium uppercase">
                     {t('Speakers.gala_dinner')}
