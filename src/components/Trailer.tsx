@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/trailer-poster.png';
-
 const Trailer = () => {
   const t = useTranslations();
 
@@ -15,7 +13,7 @@ const Trailer = () => {
       <div
         className="relative mt-10 h-[500px] w-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${bannerimg.src})`
+          backgroundImage: `url(${'/assets/images/trailer-poster.png'})`
         }}
       />
 

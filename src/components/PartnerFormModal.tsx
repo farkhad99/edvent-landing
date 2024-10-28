@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 
 import { sendEmail } from '@/utils/sendEmail';
 
-import bannerimg from '../../../public/assets/images/about-banner.png';
+import bannerimg from '../../../../../assets/images/about-banner.png';
 import { Loader } from './Loader';
 
 export type FormData = {

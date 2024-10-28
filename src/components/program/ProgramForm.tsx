@@ -7,7 +7,6 @@ import { useForm } from 'react-hook-form';
 
 import { sendEmail } from '@/utils/sendEmail';
 
-import bannerimg from '../../../public/assets/images/about-banner.png';
 import { Loader } from '../Loader';
 
 export type FormData = {
@@ -26,7 +25,7 @@ const ProgramForm = () => {
     reset();
   };
 
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/about-banner.png'})`;
 
   return (
     <div>

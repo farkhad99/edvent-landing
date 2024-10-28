@@ -9,12 +9,10 @@ import { useTranslations } from 'next-intl';
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import bannerimg from '../../public/assets/images/about-banner.png';
-
 const Feedback = () => {
   const t = useTranslations();
 
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/about-banner.png'})`;
 
   return (
     <div

@@ -1,7 +1,5 @@
 'use client';
 
-import '@/styles/global.css';
-
 import { useEffect, useState } from 'react';
 
 import { ModalProvider } from '@/components/modal/EditWrapper';

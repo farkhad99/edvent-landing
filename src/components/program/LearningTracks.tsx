@@ -1,8 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-import architectureBanner from '../../../public/assets/images/architecture-banner.png';
 import careerBanner from '../../../public/assets/images/career-banner.png';
-import enterpreneurshipBanner from '../../../public/assets/images/enterpreneurship-banner.png';
 import fashionBanner from '../../../public/assets/images/fashion-banner.png';
 import healthBanner from '../../../public/assets/images/health-banner.png';
 import leadershipBanner from '../../../public/assets/images/leadership-banner.png';
@@ -29,7 +27,9 @@ const LearningTracks = () => {
           {/* enterpreneurship */}
           <div
             className="flex-end flex h-[300px] max-w-[360px] grow flex-col justify-end p-4 py-6 text-white"
-            style={{ background: `url(${enterpreneurshipBanner.src})` }}
+            style={{
+              background: `url(${'/assets/images/enterpreneurship-banner.png'})`
+            }}
           >
             <p className="mb-3 text-16 font-bold capitalize">
               {t('Program.enterpreneurship')}
@@ -80,7 +80,9 @@ const LearningTracks = () => {
           {/* Health */}
           <div
             className="flex-end flex h-[300px] max-w-[360px] grow flex-col justify-end p-4 text-white"
-            style={{ background: `url(${architectureBanner.src})` }}
+            style={{
+              background: `url(${'/assets/images/architecture-banner.png'})`
+            }}
           >
             <p className="mb-3 text-16 font-bold capitalize">
               {t('Program.architecture')}

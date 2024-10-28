@@ -1,11 +1,9 @@
 import { useTranslations } from 'next-intl';
 
-import bannerimg from '../../public/assets/images/opportunities-banner.png';
-
 const OpportunityBanner = () => {
   const t = useTranslations();
 
-  const mainImage = `url(${bannerimg.src})`;
+  const mainImage = `url(${'/assets/images/opportunities-banner.png'})`;
 
   return (
     <div
