@@ -25,11 +25,11 @@ export default function AdminPage() {
       <Venues isAdmin />
       <Tickets isAdmin />
       <WhyBanner isAdmin />
-      <Feedback />
-      <Highlights />
-      <Trailer />
-      <Partners />
-      <OpportunityBanner />
+      <Feedback isAdmin />
+      <Highlights isAdmin />
+      <Trailer isAdmin />
+      <Partners isAdmin />
+      <OpportunityBanner isAdmin />
     </>
   );
 }

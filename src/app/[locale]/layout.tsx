@@ -1,6 +1,7 @@
 import '@/styles/global.css';
 
 import axios from 'axios';
+// import axios from 'axios';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import { notFound } from 'next/navigation';
@@ -45,7 +46,7 @@ export default async function RootLayout(props: {
 }) {
   if (!AppConfig.locales.includes(props.params.locale)) notFound();
   const response = await axios.get(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/locales/en.json`
+    `${process.env.NEXT_PUBLIC_BASE_URL}/locales/${props.params.locale}.json`
   );
   const messages = response.data;
 
@@ -56,8 +57,8 @@ export default async function RootLayout(props: {
     >
       <body>
         <NextIntlClientProvider
-          locale={props.params.locale}
           messages={messages}
+          locale={props.params.locale}
         >
           <BaseTemplate>{props.children}</BaseTemplate>
         </NextIntlClientProvider>

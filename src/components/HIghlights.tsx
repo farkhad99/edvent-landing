@@ -1,69 +1,131 @@
 import { useTranslations } from 'next-intl';
 
-const Highlights = () => {
+import EditWrapper from './modal/EditWrapper';
+
+const Highlights = ({ isAdmin }: { isAdmin?: boolean }) => {
   const t = useTranslations();
 
   return (
     <div className="bg-gray-200 p-10">
       <div className="mx-auto flex max-w-[1000px] flex-col items-center gap-4 pb-16">
-        <h1 className="text-center text-3xl font-bold uppercase text-gray-100 md:text-5xl">
-          {t('Highlights.title')}
-        </h1>
+        <EditWrapper
+          isVisible={isAdmin}
+          forms={[{ type: 'text', path: 'Highlights.title' }]}
+        >
+          <h1 className="text-center text-3xl font-bold uppercase text-gray-100 md:text-5xl">
+            {t('Highlights.title')}
+          </h1>
+        </EditWrapper>
 
-        <p className="max-w-[833px] text-center">
-          {t('Highlights.description')}
-        </p>
+        <EditWrapper
+          isVisible={isAdmin}
+          forms={[{ type: 'text', path: 'Highlights.description' }]}
+        >
+          <p className="max-w-[833px] text-center">
+            {t('Highlights.description')}
+          </p>
+        </EditWrapper>
 
         <div className="my-4 grid w-full grid-cols-2 justify-between gap-2 sm:flex sm:flex-row">
-          <div className="text-center">
-            <p className="text-3xl font-bold" style={{ color: '#939393' }}>
-              1200
-            </p>
-            <p className=" font-medium text-black">
-              {t('Highlights.attendees')}
-            </p>
-          </div>
+          <EditWrapper
+            isVisible={isAdmin}
+            forms={[
+              { type: 'text', path: 'Highlights.attendees_count' },
+              { type: 'text', path: 'Highlights.attendees' }
+            ]}
+          >
+            <div className="text-center">
+              <p className="text-3xl font-bold" style={{ color: '#939393' }}>
+                {t('Highlights.attendees_count')}
+              </p>
+              <p className=" font-medium text-black">
+                {t('Highlights.attendees')}
+              </p>
+            </div>
+          </EditWrapper>
 
-          <div className="text-center">
-            <p className="text-3xl font-bold" style={{ color: '#939393' }}>
-              60+
-            </p>
-            <p className=" font-medium text-black">
-              {t('Highlights.countries')}
-            </p>
-          </div>
+          <EditWrapper
+            isVisible={isAdmin}
+            forms={[
+              { type: 'text', path: 'Highlights.countries_count' },
+              { type: 'text', path: 'Highlights.countries' }
+            ]}
+          >
+            <div className="text-center">
+              <p className="text-3xl font-bold" style={{ color: '#939393' }}>
+                {t('Highlights.countries_count')}
+              </p>
+              <p className=" font-medium text-black">
+                {t('Highlights.countries')}
+              </p>
+            </div>
+          </EditWrapper>
 
-          <div className="text-center">
-            <p className="text-3xl font-bold" style={{ color: '#939393' }}>
-              65
-            </p>
-            <p className=" font-medium text-black">
-              {t('Highlights.speakers')}
-            </p>
-          </div>
+          <EditWrapper
+            isVisible={isAdmin}
+            forms={[
+              { type: 'text', path: 'Highlights.speakers_count' },
+              { type: 'text', path: 'Highlights.speakers' }
+            ]}
+          >
+            <div className="text-center">
+              <p className="text-3xl font-bold" style={{ color: '#939393' }}>
+                {t('Highlights.speakers_count')}
+              </p>
+              <p className=" font-medium text-black">
+                {t('Highlights.speakers')}
+              </p>
+            </div>
+          </EditWrapper>
 
-          <div className="text-center">
-            <p className="text-3xl font-bold" style={{ color: '#939393' }}>
-              2
-            </p>
-            <p className=" font-medium text-black">{t('Highlights.stages')}</p>
-          </div>
+          <EditWrapper
+            isVisible={isAdmin}
+            forms={[
+              { type: 'text', path: 'Highlights.stages_count' },
+              { type: 'text', path: 'Highlights.stages' }
+            ]}
+          >
+            <div className="text-center">
+              <p className="text-3xl font-bold" style={{ color: '#939393' }}>
+                {t('Highlights.stages_count')}
+              </p>
+              <p className=" font-medium text-black">
+                {t('Highlights.stages')}
+              </p>
+            </div>
+          </EditWrapper>
 
-          <div className="text-center">
-            <p className="text-3xl font-bold" style={{ color: '#939393' }}>
-              30
-            </p>
-            <p className=" font-medium text-black">
-              {t('Highlights.sessions')}
-            </p>
-          </div>
+          <EditWrapper
+            isVisible={isAdmin}
+            forms={[
+              { type: 'text', path: 'Highlights.sessions_count' },
+              { type: 'text', path: 'Highlights.sessions' }
+            ]}
+          >
+            <div className="text-center">
+              <p className="text-3xl font-bold" style={{ color: '#939393' }}>
+                {t('Highlights.sessions_count')}
+              </p>
+              <p className=" font-medium text-black">
+                {t('Highlights.sessions')}
+              </p>
+            </div>
+          </EditWrapper>
 
-          <div className="text-center">
-            <p className="text-3xl font-bold" style={{ color: '#939393' }}>
-              70 mln
-            </p>
-            <p className=" font-medium text-black">{t('Highlights.media')}</p>
-          </div>
+          <EditWrapper
+            isVisible={isAdmin}
+            forms={[
+              { type: 'text', path: 'Highlights.media_count' },
+              { type: 'text', path: 'Highlights.media' }
+            ]}
+          >
+            <div className="text-center">
+              <p className="text-3xl font-bold" style={{ color: '#939393' }}>
+                {t('Highlights.media_count')}
+              </p>
+              <p className=" font-medium text-black">{t('Highlights.media')}</p>
+            </div>
+          </EditWrapper>
         </div>
 
         <a

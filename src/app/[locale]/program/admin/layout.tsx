@@ -51,7 +51,9 @@ async function checkAuth() {
   return true;
 }
 
-export default function AdminLayout(props: { children: React.ReactNode }) {
+export default function ProgramAdminLayout(props: {
+  children: React.ReactNode;
+}) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {

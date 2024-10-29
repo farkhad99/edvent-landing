@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getTranslations } from 'next-intl/server';
 
 import { About } from '@/components/About';
@@ -19,7 +20,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
     locale: props.params.locale,
     namespace: 'Index'
   });
-
+  // ts-gnore
   return {
     title: t('meta_title'),
     description: t('meta_description')
